@@ -1,0 +1,17 @@
+$primary:       #44B0E4;
+$secondary:     #E4C844;
+$tertiary:      #E44460;
+
+$enable-rounded: false;
+
+.primary {
+  color: $primary;
+}
+
+.secondary {
+  color: $secondary;
+}
+
+.tertiary {
+  color: $tertiary;
+}

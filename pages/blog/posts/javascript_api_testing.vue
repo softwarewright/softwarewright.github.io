@@ -2,7 +2,7 @@
   <blog-post :post="post"/>
 </template>
 <script>
-import post from "~/content/hello.md"
+import post from "~/content/javascript_api_testing.md"
 import BlogPost from "~/components/blog/BlogPost.vue"
 export default {
   head: { ...post.attributes },

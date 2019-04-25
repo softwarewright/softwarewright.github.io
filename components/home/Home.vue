@@ -7,16 +7,10 @@
   </div>
 </template>
 <script>
-/**
- * HeroSection
- * ValueSection
- * CertifiedSection
- * BlogSection
- */
-import HeroSection from "~/components/Home/hero/HeroSection"
-import ValueSection from "~/components/Home/value/ValueSection"
-import CertifiedSection from "~/components/Home/certified/CertifiedSection"
-import BlogSection from "~/components/Home/blog/BlogSection"
+import HeroSection from "~/components/home/hero/HeroSection";
+import ValueSection from "~/components/home/value/ValueSection";
+import CertifiedSection from "~/components/home/certified/CertifiedSection";
+import BlogSection from "~/components/home/blog/BlogSection";
 export default {
   components: {
     HeroSection,
@@ -24,5 +18,5 @@ export default {
     CertifiedSection,
     BlogSection
   }
-}
+};
 </script>

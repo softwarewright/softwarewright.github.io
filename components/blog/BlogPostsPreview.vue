@@ -1,20 +1,19 @@
 <template>
   <div class="container-fluid">
     <div class="blog-posts-preview row">
-      <div
-        v-for="post in posts"
-        :key="post.title"
-        class="col-xl-4 col-md-12">
+      <div v-for="post in posts" :key="post.title" class="col-xl-4 col-md-12">
         <blog-post-preview
-          :imageUrl="post.imageUrl"
+          :image="post.image"
+          :route="post.route"
           :title="post.title"
-          :description="post.description"/>
+          :description="post.description"
+        />
       </div>
     </div>
   </div>
 </template>
 <script>
-import BlogPostPreview from "~/components/blog/BlogPostPreview"
+import BlogPostPreview from "~/components/blog/BlogPostPreview";
 export default {
   props: {
     posts: Array
@@ -22,12 +21,12 @@ export default {
   components: {
     BlogPostPreview
   }
-}
+};
 </script>
 
 <style scoped>
-  .blog-posts-preview {
-    text-align: center;
-    margin-top: 2rem;
-  }
+.blog-posts-preview {
+  text-align: center;
+  margin-top: 2rem;
+}
 </style>

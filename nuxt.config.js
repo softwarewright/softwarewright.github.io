@@ -1,6 +1,5 @@
 import pkg from "./package";
 import path from "path";
-import frontMatter from "front-matter";
 
 export default {
   mode: "universal",
@@ -10,6 +9,9 @@ export default {
    */
   head: {
     title: pkg.name,
+    htmlAttrs: {
+      lang: "en"
+    },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" }
@@ -67,8 +69,8 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
-    "@nuxtjs/google-analytics",
-    ["@nuxtjs/google-tag-manager", { id: "GTM-N9SPD4M" }]
+    "@nuxtjs/google-analytics"
+    // ["@nuxtjs/google-tag-manager", { id: "GTM-N9SPD4M" }]
     // '@nuxtjs/pwa',
   ],
   googleAnalytics: {

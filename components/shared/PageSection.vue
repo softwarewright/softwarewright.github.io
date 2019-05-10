@@ -3,8 +3,12 @@
     <slot/>
   </section>
 </template>
-<style scoped>
+<style scoped lang="scss">
+@import "~/assets/main.scss";
 section {
-  padding-top: 5rem;
+  padding-top: 2.5rem;
+  @include respond(tablet) {
+    padding-top: 5rem;
+  }
 }
 </style>

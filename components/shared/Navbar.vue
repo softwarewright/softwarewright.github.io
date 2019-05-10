@@ -4,11 +4,7 @@
       <div class="container">
         <nuxt-link to="/">
           <h3 class="navbar-brand">
-            <fa-icon
-              class="core-value-icon"
-              :icon="['fas', 'cogs']"
-            />
-            SBW
+            <fa-icon class="core-value-icon" :icon="['fas', 'cogs']"/>SBW
           </h3>
         </nuxt-link>
         <button
@@ -22,32 +18,32 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="navbar-collapse collapse"
-          id="navbarSupportedContent"
-        >
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <nuxt-link
-              tag="li"
-              to="/"
-            >
+            <nuxt-link tag="li" to="/" data-toggle="collapse" data-target="#navbarSupportedContent">
               <a class="nav-link">Home</a>
             </nuxt-link>
             <nuxt-link
               tag="li"
               to="/about"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
             >
               <a class="nav-link">About Us</a>
             </nuxt-link>
             <nuxt-link
               tag="li"
               to="/blog"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
             >
               <a class="nav-link">Blog</a>
             </nuxt-link>
             <nuxt-link
               tag="li"
               to="/contact"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
             >
               <a class="nav-link">Contact Us</a>
             </nuxt-link>
@@ -55,26 +51,25 @@
         </div>
       </div>
     </nav>
-
   </div>
 </template>
 <style lang="scss" scoped>
-  @import "~/assets/_variables.scss";
+@import "~/assets/_variables.scss";
 
-  .navbar-brand {
-    margin: auto 0;
-    height: 100%;
-    color: $primary;
-  }
+.navbar-brand {
+  margin: auto 0;
+  height: 100%;
+  color: $primary;
+}
 
-  .nuxt-link-exact-active a {
-    display: inline-block;
-    color: $primary !important;
-    border-bottom: 2px solid $primary;
-  }
+.nuxt-link-exact-active a {
+  display: inline-block;
+  color: $primary !important;
+  border-bottom: 2px solid $primary;
+}
 
-  .nav-link {
-    margin: 0 1rem;
-    font-weight: bold;
-  }
+.nav-link {
+  margin: 0 1rem;
+  font-weight: bold;
+}
 </style>

@@ -207,6 +207,7 @@ Test.prototype.expectStatus = function(expectedStatus) {
     const { status } = response;
 
     if (expectedStatus !== status) {
+      // Craft the the error message that you have been longing for!
       const message = `
       Request: ${this.method} ${this.url}
         Headers: ${JSON.stringify(this.header)}
@@ -255,7 +256,7 @@ describe("/health", () => {
 
 ## Intellisense on Custom Assertions
 
-Great that covers API test creation and customization, we've covered a lot of ground with only a few files. Though one thing that you may notice if you are in an editor like Visual Studio Code is that intellisense will not recognize the new method that you have added to the Test class, let's fix that with a typings declaration.
+That covers API test creation and customization and we've covered a lot of ground with only a few files. Something thing that you may notice if you are in an editor like Visual Studio Code is that intellisense will not recognize the new method that you have added to the Test class, let's fix that with a typings declaration.
 
 ```typescript
 // ./test/supertest-extended.d.ts
@@ -279,3 +280,7 @@ Source code can be found [here](https://github.com/softwarebywright/javascript-a
 
 - [Jest Documentation](https://jestjs.io/docs/en/getting-started.html)
 - [Supertest Documenation](https://github.com/visionmedia/supertest)
+
+**Sources**
+
+- https://github.com/visionmedia/supertest/issues/381

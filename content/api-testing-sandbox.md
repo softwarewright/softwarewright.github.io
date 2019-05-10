@@ -27,7 +27,7 @@ JavaScript has undoubtedly one of largest development communities around. As a r
 
 ## Why create an API Testing Sandbox?
 
-Sandboxes are a great way to practice in a given subject. Whether you are a beginner or a seasoned vet to API Testing having a place to practice writing tests is significant. As a result I will be showing you a simple setup that will enable you to practice writing API tests.
+Sandboxes are a great way to practice in any given programmatic subject. Whether you are a beginner or a seasoned vet to API Testing having a place to practice writing tests is significant. As a result I will be showing you a simple setup that will enable you to practice writing API tests.
 
 ## Sandbox Setup
 

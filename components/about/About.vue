@@ -9,28 +9,28 @@
           company has the ability to deliver quickly with monitors and testing in place that will help you sleep at night.
         </p>
         <p>
-          Darrius Wright the CEO has a deep experience in managing AWS solutions, working as a Full Stack Developer, as well as mentoring developers. He
-          knows what it takes to deliver a high quailty product from start to finish and has the experience to enhance your development experience.
+          Darrius Wright the owner has a deep experience in managing AWS solutions, working as a Full Stack Developer, and mentoring engineers. Through his experience
+          he has gained an unccanny ability to deliver a high quailty products from start to finish and while enhancing development experience.
         </p>
       </div>
     </div>
   </page-section>
 </template>
 <script>
-  import PageSection from "~/components/shared/PageSection"
-  export default {
-    components: {
-      PageSection
-    }
+import PageSection from "~/components/shared/PageSection";
+export default {
+  components: {
+    PageSection
   }
+};
 </script>
 <style scoped>
-  .container {
-    padding-bottom: 4rem;
-  }
-  h2 {
-    padding-bottom: 2rem;
-  }
+.container {
+  padding-bottom: 4rem;
+}
+h2 {
+  padding-bottom: 2rem;
+}
 </style>
 
 

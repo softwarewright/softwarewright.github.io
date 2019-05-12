@@ -17,6 +17,9 @@ export default {
   components: {
     Blog
   },
+  beforeMount() {
+    window.openPopup();
+  },
   async fetch({ store }) {
     await store.dispatch("blog/retrievePosts");
   }

@@ -40,6 +40,16 @@ export default {
         src:
           "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
         type: "text/javascript"
+      },
+      {
+        src:
+          "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+        type: "text/javascript",
+        ["data-dojo-config"]: "usePlainJson: true, isDebug: false"
+      },
+      {
+        src: "/mailchimp.js",
+        type: "text/javascript"
       }
     ]
   },

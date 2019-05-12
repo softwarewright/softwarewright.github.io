@@ -1,5 +1,6 @@
 <template>
   <div>
+    <email-subscribe v-if="$route.path.includes('blog')"/>
     <div v-if="$route.path !== '/contact'" class="closing-cta">
       <div class="container">
         <div class="row">
@@ -34,7 +35,7 @@
         <div class="offset-lg-6 offset-md-4 contact">
           <h3>Contact</h3>
           <div class="contact-info">
-            <a href="mailto:darrius.wright@softwarebywright.com">darrius.wright@softwarebywright.com</a>
+            <a href="mailto:contact@softwarebywright.com">contact@softwarebywright.com</a>
             <a href="tel:+18018105280">801-810-5280</a>
           </div>
         </div>
@@ -43,6 +44,15 @@
     </footer>
   </div>
 </template>
+<script>
+import EmailSubscribe from "./EmailSubscribe";
+export default {
+  components: {
+    EmailSubscribe
+  }
+};
+</script>
+
 <style lang="scss" scoped>
 @import "~/assets/_variables.scss";
 

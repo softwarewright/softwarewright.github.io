@@ -32,7 +32,7 @@
             </a>
           </div>
         </div>
-        <div class="offset-lg-6 offset-md-4 contact">
+        <div class="offset-lg-6 offset-md-3 contact">
           <h3>Contact</h3>
           <div class="contact-info">
             <a href="mailto:contact@softwarebywright.com">contact@softwarebywright.com</a>

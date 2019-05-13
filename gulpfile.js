@@ -1,6 +1,5 @@
 const { src, task, dest, watch, series } = require("gulp");
 const frontMatter = require("front-matter");
-const startCase = require("lodash/startCase");
 const transform = require("gulp-transform");
 const rename = require("gulp-rename");
 const del = require("del");
@@ -77,7 +76,7 @@ task("post", async () => {
   const fileName = process.argv[4] || "new_post";
   const newPostContent = `---
 head:
-  title: ${startCase(fileName)}
+  title: [Attention | Catchy Headline]
   meta:
     - content: <description>
       name: description
@@ -87,7 +86,18 @@ head:
       content: <keywords>
 image: /assets/posts/<image>
 date: ${new Date().toUTCString()}
----`;
+---
+
+[Interest | Intrigue the reader]
+
+[Desire | Why care? Benefits]
+
+[Action | Complete the post]
+
+**Required Software**
+  - []()
+
+[Content]`;
 
   await writeFile(`./content/${fileName}.md`, newPostContent);
 });

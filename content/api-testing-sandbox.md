@@ -1,8 +1,8 @@
 ---
 head:
-  title: API Testing Sandbox
+  title: How Learn API Testing Without a Real API
   meta:
-    - content: Learn how to test APIs using httpbin, Docker, supertest, and Jest
+    - content: Learn how to test an API by creating your very own sandbox to practice testing
       name: description
     - name: author
       content: Darrius Wright

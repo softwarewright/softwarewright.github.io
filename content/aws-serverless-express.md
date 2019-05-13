@@ -1,8 +1,8 @@
 ---
 head:
-  title: AWS Serverless Express
+  title: How To Turn An ExpressJS API Into A Serverless API
   meta:
-    - content: Learn how to develop a serverless express application using the aws-serverless-express package.
+    - content: Learn how to change an ExpressJS API into a serverless API with just a few changes.
       name: description
     - name: author
       content: Darrius Wright

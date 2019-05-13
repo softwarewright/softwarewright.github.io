@@ -1,8 +1,8 @@
 ---
 head:
-  title: JavaScript API Testing
+  title: How To Write JavaScript API Tests
   meta:
-    - content: Develop a JavaScript API Testing framework using Jest and Supertest
+    - content: Create a JavaScript API Testing framework using common JavaScript libraries
       name: description
     - name: author
       content: Darrius Wright

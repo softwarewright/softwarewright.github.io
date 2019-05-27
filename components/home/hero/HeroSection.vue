@@ -18,7 +18,7 @@
             <nuxt-link
               to="/contact"
               class="hero-action ml-auto btn btn-outline-primary"
-            >REQUEST FREE CONSULTATION</nuxt-link>
+            >REQUEST CONSULTATION NOW</nuxt-link>
           </div>
         </div>
       </div>

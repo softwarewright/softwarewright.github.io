@@ -3,10 +3,7 @@
     <div class="container">
       <div class="row certified">
         <div class="col-lg-6 col-md-12 mx-auto certified-in">
-          <fa-icon
-                class="certified-icon"
-                :icon="['fab', 'aws']"
-              />
+          <fa-icon class="certified-icon" :icon="['fab', 'aws']"/>
           <h3>AWS Certified</h3>
         </div>
         <div class="col-lg-6 col-md-12 mx-auto certified-because">
@@ -29,36 +26,43 @@ export default {
         name: "AWS Associate Solutions Architect",
         link: ""
       }
-    }
+    };
   }
-}
+};
 </script>
 <style lang="scss" scoped>
-  @import "~/assets/_variables.scss";
+@import "~/assets/_variables.scss";
 
-  .certified-section {
-    background-color: $primary;
-    color: white;
-    padding-top: 2rem;
-    margin-top: 2rem;
-  }
-  .certified {
-    text-align: center;
-    padding-bottom: 2rem;
-  }
+.certified-section {
+  background-color: $primary;
+  color: white;
+  padding-top: 4rem;
+  margin-top: 2rem;
+}
+.certified {
+  text-align: center;
+  padding-bottom: 2rem;
+}
 
-  .certified-icon {
-    font-size: 5rem;
-    margin-bottom: 2rem;
-  }
+.certified-icon {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
 
-  .certified-in, .certified-because {
-    margin-top: 3rem;
-  }
+.certified-in,
+.certified-because {
+}
 
+.certified-because {
+  padding: 1.5rem 0;
+}
 
-  .certified-because-title {
-    margin-bottom: 2rem;
-  }
+h2 {
+  padding: 0;
+}
+
+.certified-because-title {
+  margin-bottom: 2rem;
+}
 </style>
 

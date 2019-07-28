@@ -1,6 +1,51 @@
-# softwarebywright.github.io
+# softwarewright.github.io
 
-> Software By Wright Website
+> Software Wright Website
+
+## Vuepress
+
+https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json
+
+### Tips
+
+#### Line Highlighting
+
+``` js{4}
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+```
+
+#### Tool Tips
+
+::: tip
+This is a tip
+:::
+
+::: warning
+This is a tip
+:::
+
+::: danger
+This is a tip
+:::
+
+::: danger STOP
+This is a tip
+:::
+
+#### Import Code Snippts
+
+<<< @filepath
+<<< @filepath{highlightLines}
+
+#### Google Analytics
+https://vuepress.vuejs.org/config/#ga
+
 
 ## Color Scheme
 

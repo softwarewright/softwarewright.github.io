@@ -12,7 +12,7 @@ date: Sun, 05 May 2019 03:28:47 GMT
 
 ## What is API Testing?
 
-Before developing a sandbox for API Testing what it is and its importance. API Testing, generally speaking, allows validation of endpoints and their results within an API. This validation can consist of checking status codes, the response body, the response headers, and many more attributes of the request. Before the end of this post, you will have stood up a fake server using Docker, as well as tested said server using JavaScript.
+Before developing a sandbox for API Testing what it is and its importance. API Testing, generally speaking, allows validation of endpoints and their results within an API. This validation can consist of checking status codes, the response body, the response headers, and many more attributes of the request. Before the end of this post, you will have stood up a fake API using Docker, as well as tested said API using JavaScript.
 
 ## Why JavaScript for API Testing?
 
@@ -20,7 +20,7 @@ JavaScript has undoubtedly one of the largest development communities around. As
 
 ## Why create an API Testing Sandbox?
 
-Sandboxes are a great way to practice in any given programmatic subject. Whether you are a beginner or a seasoned vet to API Testing having a place to practice writing tests is significant. Therefore I will be showing you a simple setup that will enable you to practice writing API tests.
+Sandboxes are a great way to practice in any given programmatic subject. Whether you are a beginner or a seasoned vet a place to practice writing tests is significant. So let's jump into development!
 
 ## Sandbox Setup
 

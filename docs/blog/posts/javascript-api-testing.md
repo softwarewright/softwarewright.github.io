@@ -1,13 +1,7 @@
 ---
-head:
-  title: How To Write JavaScript API Tests
-  meta:
-    - content: Create a JavaScript API Testing framework using common JavaScript libraries
-      name: description
-    - name: author
-      content: Darrius Wright
-    - name: keywords
-      content: JavaScript, supertest, TypeScript, jest, API Testing, api, express, test, testing
+title: JavaScript API Testing
+description: Create a JavaScript API Testing framework using common JavaScript libraries
+keywords: JavaScript, supertest, TypeScript, jest, API Testing, api, express, test, testing
 image: /posts/javascript.png
 date: Thu, 02 May 2019 05:21:28 GMT
 ---
@@ -18,7 +12,7 @@ date: Thu, 02 May 2019 05:21:28 GMT
 
 ## Why use JavaScript for API Testing?
 
-Great question! When considering overwhelming community support that JavaScript has, along with libraries that are specifically created for the purpose of API testing JavaScript is definitely worth considering for API testing. [Supertest](https://github.com/visionmedia/supertest), one of the most prominent libraries for API testing in JavaScript, provides a simple interface making requests as well as asserting their results. In addition, it's fairly simple to create your own custom assertions for the supertest which we will dive into in the post below.
+Great question! When considering overwhelming community support that JavaScript has, along with libraries that are specifically created for API testing JavaScript is worth considering for API testing. [Supertest](https://github.com/visionmedia/supertest), one of the most prominent libraries for API testing in JavaScript, provides a simple interface making requests as well as asserting their results. Besides, it's fairly simple to create custom assertions for supertest which we will dive into in the post below.
 
 ## Setting up the API
 
@@ -127,7 +121,7 @@ npm test
 
 As you can see it's pretty simple to create an API test using these libraries, but let's take things a bit further. In my experience with supertest I've noticed on test failures the error message returned to the user is not the most informative.
 
-To see an example of this change the expect(200) in the test above to expect(201) and run you tests again.
+To see an example of this change the expect(200) in the test above to expect(201) and run your tests again.
 
 ```bash
 expected 201 "Created", got 200 "OK"
@@ -142,7 +136,7 @@ While knowing the status code was incorrect is good, it would be amazing if we c
 
 ## Customizing Supertest
 
-For now we will add this logic above our original test, but don't you worry it wont be there for long.
+For now, we will add this logic above our original test, but don't you worry it won't be there for long.
 
 ```javascript
 // ./todo.spec.js
@@ -180,7 +174,7 @@ describe("/todo", () => {
      .expectStatus(201);
 ```
 
-Now if you run your test again, you'll notice that we have a very informative message of both the request sent, and the response given back.
+Now if you run your test again, you'll notice that we have a very informative message of both the request sent and the response is given back.
 
 ```bash
 Request: GET http://localhost:3000/todo
@@ -194,7 +188,7 @@ Response:
 Expected 201 "Created", got 200 "OK
 ```
 
-Now you may be thinking how I'm I supposed to use these prototype changes across all of my API Tests? Well we will rely on jest to preconfigure supertest for us through our jest.config.js.
+Now you may be thinking how I'm I supposed to use these prototype changes across all of my API Tests? Well, we will rely on jest to preconfigure supertest for us through our jest.config.js.
 
 ```javascript
 // ./test/supertest-extended.js
@@ -256,7 +250,7 @@ describe("/health", () => {
 
 ## Intellisense on Custom Assertions
 
-That covers API test creation and customization and we've covered a lot of ground with only a few files. Something thing that you may notice if you are in an editor like Visual Studio Code is that intellisense will not recognize the new method that you have added to the Test class, let's fix that with a typings declaration.
+That covers API test creation and customization and we've covered a lot of ground with only a few files. Something thing that you may notice if you are in an editor like Visual Studio Code is that IntelliSense will not recognize the new method that you have added to the Test class, let's fix that with a typings declaration.
 
 ```typescript
 // ./test/supertest-extended.d.ts
@@ -270,9 +264,9 @@ declare module "supertest" {
 }
 ```
 
-Simple enough right? We extend the existing typings for supertest within our own project and now we have typings on our custom supertest assertions.
+Simple enough right? We extend the existing typings for supertest within our project and now we have typings on our custom supertest assertions.
 
-Whew! If you have managed to follow along through this entire blog post you've done something pretty incredible. You've created an extensible API Testing Framework that has full intellisense. Congratulations on making it through and test on fellow developers!
+Whew! If you have managed to follow along through this entire blog post you've done something pretty incredible. You've created an extensible API Testing Framework that has full IntelliSense. Congratulations on making it through and test on fellow developers!
 
 Source code can be found [here](https://github.com/softwarebywright/javascript-api-testing).
 
@@ -280,7 +274,4 @@ Source code can be found [here](https://github.com/softwarebywright/javascript-a
 
 - [Jest Documentation](https://jestjs.io/docs/en/getting-started.html)
 - [Supertest Documenation](https://github.com/visionmedia/supertest)
-
-**Sources**
-
-- https://github.com/visionmedia/supertest/issues/381
+- [Extending Supertest Issue](https://github.com/visionmedia/supertest/issues/381)

@@ -1,13 +1,14 @@
 ---
 home: true
+heroImage: /logo.png
 actionText: Learn
-actionLink: /learn/
+actionLink: /blog/
 features:
-- title: Experienced Developer
-  details: I've developed websites, managed servers, and mentored developers. I taken a deep passion in my both my career as well as growing the careers of others.
+- title: Experienced Programmer
+  details: Fullstack, DevOps, Cloud Engineer throughout my career I have learned what it means to be in each of these roles. I take a great passion for everything I develop and take the time to create the highest quality product that I possibly can.
 - title: Driven Content Creator
-  details: My goal as a content creator is create a library that other developers much like yourself can learn and grow from. I take the time to listen to feedback and produce the quailty of content that I wish I had when starting in development...
+  details: Every video, blog post, or training brings with it the level of quality that makes me passionate to share it with the world. It is the content that as a beginner I wish I had, and I am more than happy to share with those who are interested.
 - title: Passionate Mentor
-  details: After being a software engineer in the development field for sometime now I can say without a doubt my favor part of the job has been mentoring others.
+  details: After all of the time I have spent in Software Development I am most proud of the people that I have had the honor of mentoring. For me continuing to grow as a mentor is the most exciting part of my career, and I hope to continue that growth throughout my future. 
 footer: Copyright © 2019-present Darrius Wright
 ---

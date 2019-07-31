@@ -4,4 +4,4 @@
 
 ## Recent Posts
 
-{{ $page }}
+<Posts />

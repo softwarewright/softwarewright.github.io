@@ -1,9 +1,10 @@
 {
   "name": "softwarewright.github.io",
   "version": "1.0.0",
-  "description": "> Software By Wright Website",
+  "description": "> Software Wright Website",
   "main": "index.js",
   "scripts": {
+    "start": "npm run docs:dev",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/softwarewright/softwarewright.github.io/issues"
   },
-  "homepage": "https://github.com/softwarewright/softwarewright.github.io#readme"
+  "homepage": "https://github.com/softwarewright/softwarewright.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }

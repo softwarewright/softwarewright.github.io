@@ -10,12 +10,21 @@ module.exports = {
             { text: 'Blog', link: '/blog/' },
             // { text: 'Learn', link: '/learn/' },
             { text: 'Contact', link: '/contact/' },
-            { text: 'GitHub', link: 'https://github.com/softwarewright' }
+            { text: 'GitHub', link: 'https://github.com/softwarewright' },
+            { text: 'Twitter', link: 'https://twitter.com/softwarewright' }
         ],
         logo: '/small-logo.png'
     },
     markdown: {
         lineNumbers: true
     },
-    ga: 'UA-139419580-2'
+    ga: 'UA-139419580-4',
+    plugins: [
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-139419580-4'
+            }
+        ]
+    ]
 }

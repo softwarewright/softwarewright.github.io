@@ -2,6 +2,9 @@
 
 > Software Wright Website
 
+## Comments
+https://github.com/lorisleiva/vuepress-plugin-disqus/issues/2
+
 ## Vuepress
 
 https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json

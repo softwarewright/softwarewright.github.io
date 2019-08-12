@@ -20,7 +20,7 @@ We'll start by creating a project and installing the dependencies we need. We ar
 
 ```bash
 // create your project directory
-mdkir javascript-api-testing
+mkdir javascript-api-testing
 cd javascript-api-testing
 
 // create a default package.json and install dependencies

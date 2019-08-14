@@ -24,7 +24,9 @@ module.exports = {
             '@vuepress/google-analytics',
             {
                 'ga': 'UA-139419580-4'
-            }
+            },
+            'vuepress-plugin-disqus'
         ]
-    ]
+    ],
+    // 'disqus': { /* options */ }
 }

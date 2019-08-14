@@ -1,8 +1,11 @@
 ---
-title: "Learn JavaScript Through Testing #1"
-description: The first part of the series, we will install NodeJS and learn about variables.
+title: "Learn JavaScript Through Testing #0"
+description: The first part of the series, we will install NodeJS and learn a bit about variables.
 image: /posts/testing.png
+date: Tue Aug 13 2019 21:20:31
 ---
+
+# {{$page.title}}
 
 **Required Software**
 
@@ -50,6 +53,10 @@ You may need to restart your terminal to be able to run these commands.
 :::
 
 ### Setting Up A Project
+
+:::tip
+If you would like to skip the project setup you can download the project [here](https://github.com/softwarewright/learn-js-thru-testing/archive/master.zip) and skip to the  [before we start](#before-we-start-learning) section
+:::
 
 Setting up a NodeJS project is a simple process, to begin choose a directory for your code to live. My directory will be `learn-js-thru-testing`, once that directory has been created `cd` into it. Next, you will need to create a `package.json` file, this can be done using the command below.
 
@@ -117,7 +124,7 @@ There are a couple of pieces of terminology and code that we need to dive into b
 Later in this post, we will show `Test Assertions` look like in the code.
 :::
 
-1. Create a file that ends in `.spec.js` i.e. `test.spec.js`
+1. Create a file that ends in `.spec.js` i.e. `variables.spec.js`
 
 2. Add a `Test Case`
 ``` javascript
@@ -234,3 +241,6 @@ Ran all test suites.
 ```
 
 Congratulations! You have just created your first `Test Case` with a `Test Assertion` pat yourself on the back! Great job making it through the first part of the series, in the next part we will continue by diving even deeper into variables in JavaScript. If you have any questions or feedback feel free to [contact me](/contact).
+
+
+<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

@@ -1,9 +1,12 @@
 ---
 title: "Learn JavaScript Through Testing #1"
-description: The first part of the series, we will install NodeJS and learn about variables.
+description: Let's learn about variables.
 image: /posts/testing.png
 draft: true
 ---
+
+# {{$page.title}}
+
 When learning any programming language the first thing to learn about is variables. In JavaScript there are three ways to define variables `var, let, and const`. For learning purposes now we will just focus on one, using the **var** keyword come back to the others at a later point. Variables can be assigned to values that can be any of the following types:
 
 - String: A sequence of text i.e. "abc"
@@ -32,3 +35,5 @@ var sequenceOfCharacters = "abc";
 // to be a string 
 expect(sequenceOfCharacters).toBeString()
 ```
+
+<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

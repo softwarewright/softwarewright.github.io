@@ -6,6 +6,8 @@ image: /posts/javascript.png
 date: Thu, 02 May 2019 05:21:28 GMT
 ---
 
+# {{$page.title}}
+
 **Required Software**
 
 - [NodeJS](https://nodejs.org/en/)
@@ -275,3 +277,5 @@ Source code can be found [here](https://github.com/softwarebywright/javascript-a
 - [Jest Documentation](https://jestjs.io/docs/en/getting-started.html)
 - [Supertest Documenation](https://github.com/visionmedia/supertest)
 - [Extending Supertest Issue](https://github.com/visionmedia/supertest/issues/381)
+
+<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

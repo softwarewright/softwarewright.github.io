@@ -6,6 +6,8 @@ image: /posts/lambda.png
 date: Sun, 05 May 2019 02:48:40 GMT
 ---
 
+# {{$page.title}}
+
 **Required Software**
 
 - [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
@@ -157,3 +159,5 @@ Congratulations for making it through, now you've got a fully deployed serverles
 **Resources**
 
 - [aws-sam-cli](https://docs.aws.amazon.com/cli/index.html)
+
+<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

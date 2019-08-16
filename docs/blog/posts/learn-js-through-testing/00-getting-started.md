@@ -240,7 +240,6 @@ Time: 0.919s, estimated 1s
 Ran all test suites.
 ```
 
-Congratulations! You have just created your first `Test Case` with a `Test Assertion` pat yourself on the back! Great job making it through the first part of the series, in the next part we will continue by diving even deeper into variables in JavaScript. If you have any questions or feedback feel free to [contact me](/contact).
-
+Congratulations! You have just created your first `Test Case` with a `Test Assertion` pat yourself on the back! Great job making it through the first part of the series, in the next part we will continue by diving even deeper into variables in JavaScript. If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

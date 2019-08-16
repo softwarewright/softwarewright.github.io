@@ -86,9 +86,9 @@ Jest is a `JavaScript Testing Framework` that simplifies the process of testing.
 
 Once that is finished you will need to update the package.json `test` script to run the jest framework, and add the extended jest library. 
 
-That means changing the code below.
+This means changes the test command in the `scripts` section
 
-```json
+```json {4}
 {
  ...,
  "scripts": {
@@ -102,17 +102,56 @@ To this
 
 ```json {4,6-10}
 {
- ...,
+ ... ,
  "scripts": {
  "test": "jest"
  },
+}
+```
+
+Then you will need to add the following section to the bottom of your `package.json` file.
+
+``` json {3-7}
+{
+ ... ,
  "jest": {
- "setupFilesAfterEnv": [
- "jest-extended"
- ]
+    "setupFilesAfterEnv": [
+       "jest-extended"
+    ]
  }
 }
 ```
+
+After all of the changes your `package.json` should similar to the following:
+
+``` json
+{
+  "name": "learn-js-thru-unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "jest": "^24.8.0",
+    "jest-extended": "^0.11.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
+  }
+}
+```
+
+::: warn
+Be sure that you have the `jest` section and the `test` `script` inside of the `scripts` section set up correctly or the tests may not run properly.
+:::
 
 ## Before we start learning
 

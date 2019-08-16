@@ -89,6 +89,10 @@ test("a sequence of text is a string", () => {
 
 That's it! Now give the test a run using the `npm test` command from the previous article and you should get the following:
 
+::: warning
+If you get the following error `TypeError: expect(...).toBeString is not a function` that means that your `package.json` is not setup properly. More specifically you don't have the `jest` section inside of your `package.json` file, check out [this section](/blog/posts/learn-js-through-testing/00-getting-started#setting-up-a-project) of the previous article for how to set that section up in the `package.json` file. Another option is to download the starter project [here](https://github.com/softwarewright/learn-js-thru-testing/archive/master.zip)
+:::
+
 ```bash
  PASS ./variables.spec.js
  ✓ the meaning of life is 42 (7ms)
@@ -103,8 +107,8 @@ Time: 1.064s
 A `String` can be any sequence of text, not limited to `abc`, we will learn more about `Strings` and what they can do in a later post. So stay tuned!
 :::
 
-:::warn
-Now that you have done the `String` `Test Case` I would encourage you to write tests for `Numbers`, `Booleans`, and `Arrays`. If you don
+::: warning
+Now that you have done the `String` `Test Case` I would encourage you to write tests for `Numbers`, `Booleans`, and `Arrays`. If you don't feel comfortable with that, don't worry we'll be covering how to test the other `variable` types below.
 :::
 
 ### Testing Numbers

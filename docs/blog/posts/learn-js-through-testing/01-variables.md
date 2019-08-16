@@ -77,7 +77,7 @@ test("a sequence of text is a string", () => {
 
 Finally, we want to make our assertion that we `expect` a `aSequenceOfText` `toBe` a `String`.
 
-``` javascript {4}
+``` javascript {6}
 // test case description goes here
 test("a sequence of text is a string", () => {
  // assertions go here
@@ -111,7 +111,7 @@ Now that you have done the `String` `Test Case` I would encourage you to write t
 
 Great work! Now on to the next `Test Case` for `Numbers` the rules that we have defined are, `a numeric value` can be `10, 34, 90`. What would be a good description for this test case? How about `a numeric variable can be 10, 34, or 90`? We'll add this `Test Case` to our `variables.spec.js` file.
 
-``` javascript
+``` javascript {2}
 // test case description goes here
 test("a numeric variable can be 10, 34, or 90", () => {
  // assertions go here
@@ -121,7 +121,7 @@ test("a numeric variable can be 10, 34, or 90", () => {
 Next, we need a few variables for each value `numericValue1`, `numericValue2`, and `numericValue3` and we will assign the values we mentioned earlier respectively.
 
 
-``` javascript {3-6}
+``` javascript {4-6}
 // test case description goes here
 test("a numeric variable can be 10, 34, or 90", () => {
  // assertions go here
@@ -133,7 +133,7 @@ test("a numeric variable can be 10, 34, or 90", () => {
 
 Finally, we need to assert that all of our `variables` are `Numbers`. We will do this in a `Test Assertion` for each of the variables, and make the statement that we `expect` the variables `toBeNumber`s.
 
-``` javascript {3-6}
+``` javascript {8-10}
 // test case description goes here
 test("a numeric variable can be 10, 34, or 90", () => {
  // assertions go here
@@ -204,11 +204,27 @@ test("a boolean value can be true or false", () => {
 })
 ```
 
+Let's run the test again using `npm test` to see our output:
+
+``` bash
+ PASS  ./variables.spec.js
+  ✓ the meaning of life is 42 (6ms)
+  ✓ a sequence of text is a string (1ms)
+  ✓ a numeric variable can be 10, 34, or 90 (4ms)
+  ✓ a boolean value can be true or false (1ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        1.071s
+Ran all test suites.
+```
+
 ### Testing Arrays
 
 Arrays, as mentioned above, are `multiple values stored in a single location`, the single location in our case will be a variable. Given this statement, we will create our `Test Case` with the description `an array stores multiple values in a single location`.
 
-``` javascript
+``` javascript {3}
 // test case description goes here
 test("an array stores multiple values in a single location", () => {
  // assertions go here
@@ -243,11 +259,27 @@ test("an array stores multiple values in a single location", () => {
 })
 ```
 
+Once this is written run the test again using the following command `npm test`, and you should see the following output:
+
+``` bash
+ PASS  ./variables.spec.js
+  ✓ the meaning of life is 42 (10ms)
+  ✓ a sequence of text is a string (1ms)
+  ✓ a numeric variable can be 10, 34, or 90 (1ms)
+  ✓ a boolean value can be true or false (1ms)
+  ✓ an array stores multiple values in a single location (1ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        1.122s
+```
+
 ### Testing Objects
 
 Finally `Objects` which are `A key/value collection of data`, knowing this we can make the following `Test Case` description `an object contains a key/value collection of data`.
 
-``` javascript {3}
+``` javascript {2}
 // test case description goes here
 test("an object contains a key/value collection of data", () => {
  // assertions go here
@@ -257,7 +289,7 @@ test("an object contains a key/value collection of data", () => {
 Next up is creating our variable `objectValue` with the value mentioned above denoted with curly braces `{ name: "Software Wright" }`.
 
 
-``` javascript {3}
+``` javascript {4}
 // test case description goes here
 test("an object contains a key/value collection of data", () => {
  // assertions go here
@@ -267,7 +299,7 @@ test("an object contains a key/value collection of data", () => {
 
 Then using the `dot operator` that we mentioned above we will get the `value` of the name `key` to perform our `Test Assertion`. In this `Test Assertion` we `expect` the `name` `key` `toBe` the string `"Software Wright"`.
 
-``` javascript {5}
+``` javascript {6}
 // test case description goes here
 test("an object contains a key/value collection of data", () => {
  // assertions go here
@@ -284,6 +316,23 @@ expect(objectValue).toHaveProperty("name", "Software Wright")
 ```
 This works because a `key` is also known as a `property` of an object. We will dive further into this in later articles, but the line above essential reads that the `objectValue` should have a `property` `name` with the `value` `"Software Wright"`
 :::
+
+Now let's run our `npm test` command one last time to get the following output:
+
+``` bash
+ PASS  ./variables.spec.js
+  ✓ the meaning of life is 42 (6ms)
+  ✓ a sequence of text is a string (1ms)
+  ✓ a numeric variable can be 10, 34, or 90 (1ms)
+  ✓ a boolean value can be true or false (1ms)
+  ✓ an array stores multiple values in a single location (1ms)
+  ✓ an object contains a key/value collection of data (1ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        1.099s
+```
 
 Amazing work getting through the tutorial, we've just scratched the surface on variables and their value and I can't wait to see you in the next post. If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 

@@ -314,7 +314,7 @@ The expectation could also be written as the following
 ``` javascript
 expect(objectValue).toHaveProperty("name", "Software Wright")
 ```
-This works because a `key` is also known as a `property` of an object. We will dive further into this in later articles, but the line above essential reads that the `objectValue` should have a `property` `name` with the `value` `"Software Wright"`
+This works because a `key` is also known as a `property` of an object. We will dive further into this in later articles. For those who are interested the line above reads, the `objectValue` should have a `property` called `name` with the `value` `"Software Wright"`
 :::
 
 Now let's run our `npm test` command one last time to get the following output:

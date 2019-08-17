@@ -181,4 +181,6 @@ That's it for the basic `arithmetic operators`! Be sure to run your `Test Cases`
 
 Fantastic work getting through this tutorial, you should now have a basic understanding the basic arithmetic operators of JavaScript. I would recommend changing out some of the numbers, updating your `Test Cases`, and even adding new ones to solidify these concepts. If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
+<EmailSubscription />
+
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

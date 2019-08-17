@@ -2,7 +2,14 @@ module.exports = {
     title: "Software Wright",
     description: "Let's Learn Together",
     head: [
-        ['link', { rel: 'icon', href: '/logo.png' }]
+        ['link', { rel: 'icon', href: '/logo.png' }],
+        ['script', {
+            src:
+                "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+            type: "text/javascript",
+            ["data-dojo-config"]: "usePlainJson: true, isDebug: false"
+        }],
+        ['script', { type: 'text/javascript', src: '/js/mailchimp.js' }]
     ],
     themeConfig: {
         nav: [

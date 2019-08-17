@@ -341,4 +341,6 @@ Time:        1.099s
 
 Amazing work getting through the tutorial, we've just scratched the surface on variables and their value and I can't wait to see you in the next post. If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
+<EmailSubscription />
+
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

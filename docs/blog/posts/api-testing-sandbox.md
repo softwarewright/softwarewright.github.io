@@ -139,4 +139,6 @@ That's it! You now can write tests against a fake server in JavaScript and valid
 - [Jest Documentation](https://jestjs.io/docs/en/getting-started.html)
 - [Supertest Documenation](https://github.com/visionmedia/supertest)
 
+<EmailSubscription />
+
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

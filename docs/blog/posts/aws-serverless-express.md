@@ -160,4 +160,6 @@ Congratulations for making it through, now you've got a fully deployed serverles
 
 - [aws-sam-cli](https://docs.aws.amazon.com/cli/index.html)
 
+<EmailSubscription />
+
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

@@ -1,5 +1,3 @@
-
-
 # Blog Posts
 
 ## Recent Posts

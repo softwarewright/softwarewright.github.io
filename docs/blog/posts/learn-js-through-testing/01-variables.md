@@ -1,7 +1,7 @@
 ---
 title: "Learn JavaScript Through Testing #1"
-description: Let's learn about variables.
-image: /posts/testing.png
+description: Let's Learn About Variables.
+image: /posts/javascript.png
 date: Thu Aug 15 2019 20:27:33
 ---
 
@@ -28,12 +28,13 @@ Variables can be assigned to values that are any of the following types:
 ::: tip
 There are a couple of other things that variables can be that we didn't mention below those will come in later posts.
 :::
-
-- String: A sequence of text i.e. "abc"
-- Number: A numeric value i.e. 10, 34, 90
-- Boolean: A `true` or `false` value, `true` and `false` are both reserved words in JavaScript
-- Array: Multiple values stored in a single location denoted by square brackets i.e. [1, "two", 3], which can be accessed by indexing into the array. This can be done by using the name of the variable followed by square brackets and a number specifying the element's location in the array i.e. `myArray[0]`. The element's location is also known as the element's index and arrays start their indexes at 0. 
-- Object: A key/value collection of data denoted by curly braces `{ name: "Software Wright" }`. In the example, the key is `name` and the value is a `String` with the value `"Software Wright"`. The `value` of an object's `key` can be obtained by using the `dot operator` in the example above if I wanted the `value` of the name `key` I can use the following syntax `objectValue.name` which you will see below.
+| Type           | Description   |
+|:------------- |:-------------:|
+|String| A sequence of text i.e. "abc"|
+|Number| A numeric value i.e. 10, 34, 90|
+|Boolean| A `true` or `false` value, `true` and `false` are both reserved words in JavaScript|
+|Array| Multiple values stored in a single location denoted by square brackets i.e. [1, "two", 3], which can be accessed by indexing into the array. This can be done by using the name of the variable followed by square brackets and a number specifying the element's location in the array i.e. `myArray[0]`. The element's location is also known as the element's index and arrays start their indexes at 0.|
+|Object| A key/value collection of data denoted by curly braces `{ name: "Software Wright" }`. In the example, the key is `name` and the value is a `String` with the value `"Software Wright"`. The `value` of an object's `key` can be obtained by using the `dot operator` in the example above if I wanted the `value` of the name `key` I can use the following syntax `objectValue.name` which you will see below.|
 
 ::: tip
 There are a lot more details that we can go into for Objects, we'll come back to this in a later tutorial. For now, we will keep it at the level of key/value pairs between curly braces. The same goes for Arrays, we will dive deeper into them in a later tutorial.

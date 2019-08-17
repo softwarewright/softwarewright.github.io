@@ -1,7 +1,7 @@
 ---
 title: "Learn JavaScript Through Testing #0"
-description: The first part of the series, we will install NodeJS and learn a bit about variables.
-image: /posts/testing.png
+description: Let's Learn About Project Setup
+image: /posts/javascript.png
 date: Tue Aug 13 2019 21:20:31
 ---
 

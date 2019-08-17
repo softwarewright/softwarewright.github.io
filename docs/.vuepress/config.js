@@ -8,7 +8,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
-            // { text: 'Learn', link: '/learn/' },
+            { text: 'Learn', link: '/learn/' },
             { text: 'Contact', link: '/contact/' },
             { text: 'GitHub', link: 'https://github.com/softwarewright' },
             { text: 'Twitter', link: 'https://twitter.com/softwarewright' }

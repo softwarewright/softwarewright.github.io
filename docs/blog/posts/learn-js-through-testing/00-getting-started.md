@@ -149,7 +149,7 @@ After all of the changes your `package.json` should similar to the following:
 }
 ```
 
-::: warn
+::: warning
 Be sure that you have the `jest` section and the `test` `script` inside of the `scripts` section set up correctly or the tests may not run properly.
 :::
 

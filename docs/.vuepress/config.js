@@ -12,6 +12,14 @@ module.exports = {
         ['script', { type: 'text/javascript', src: '/js/mailchimp.js' }]
     ],
     themeConfig: {
+        sidebar: {
+            '/blog/posts/learn-js-through-testing/': [
+                '00-getting-started',
+                '01-variables',
+                '02-basic-arithmetic-operators',
+                // '03-basic-assignment-operators',
+            ]
+        },
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
@@ -20,7 +28,24 @@ module.exports = {
             { text: 'GitHub', link: 'https://github.com/softwarewright' },
             { text: 'Twitter', link: 'https://twitter.com/softwarewright' }
         ],
-        logo: '/small-logo.png'
+        logo: '/small-logo.png',
+
+        // Assumes GitHub. Can also be a full GitLab url.
+        repo: 'softwarewright/softwarewright.github.io',
+        // Customising the header label
+        // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
+        repoLabel: 'Contribute!',
+
+        // Optional options for generating "Edit this page" link
+
+        // if your docs are not at the root of the repo:
+        docsDir: 'docs',
+        // if your docs are in a specific branch (defaults to 'master'):
+        docsBranch: 'vuepress',
+        // defaults to false, set to true to enable
+        editLinks: true,
+        // custom text for edit link. Defaults to "Edit this page"
+        editLinkText: 'Notice any issues? Help by contributing!'
     },
     markdown: {
         lineNumbers: true
@@ -34,6 +59,5 @@ module.exports = {
             },
             'vuepress-plugin-disqus'
         ]
-    ],
-    // 'disqus': { /* options */ }
+    ]
 }

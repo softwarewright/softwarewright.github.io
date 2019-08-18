@@ -3,18 +3,19 @@ title: "Learn JavaScript Through Testing #2"
 description: Let's Learn About Basic Arithmetic Operators
 image: /posts/javascript.png
 date: Fri Aug 16 2019 22:38:56
+subject: Arithmetic Operators
+specFile: basic-arithmetic-operators.js
 ---
-
 
 # {{$page.title}}
 
-Welcome back to the tutorial, today we will be working through JavaScript `operators`. More specifically some of the basic `Arithmetic` `operators`, I hope you're as excited as I am to relive elementary school math. Let's start learning!
+Welcome back to the tutorial, today we will be working through JavaScript `{{$page.frontmatter.subject}}`. I hope you're as excited as I am to relive elementary school math. Let's start learning!
 
 ::: tip
-Be sure to check out the first tutorial for the project set up, or download the project [here](https://github.com/softwarewright/learn-js-thru-testing/archive/variables.zip). Run `npm install` inside of the project folder to get started if you download it.
+Be sure to check out the first tutorial [here](/blog/posts/learn-js-through-testing/00-getting-started.html) for project set up, or download the project template [here](https://github.com/softwarewright/learn-js-thru-testing/archive/variables.zip). Run `npm install` inside of the project folder to get started if you download it.
 :::
 
-**Before getting started be sure to create a `basic-arithmetic-operators.spec.js` file in your project directory. This is where we will put all of the new `Test Cases`.**
+**Before getting started be sure to create a `{{$page.frontmatter.specFile}}` file in your project directory. This is where we will put all of the new `Test Cases`.**
 
 ## Basic Arithmetic Operators
 

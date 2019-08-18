@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  props: ["page"],
+  props: ["page", "acend"],
   computed: {
     posts() {
       let currentPage = this.page ? this.page : this.$page.path;
@@ -19,7 +19,9 @@ export default {
           );
         })
         .sort((a, b) => {
-          return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+          return this.acend
+            ? new Date(a.frontmatter.date) - new Date(b.frontmatter.date)
+            : new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
         });
       return posts;
     }

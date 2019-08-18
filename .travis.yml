@@ -6,5 +6,7 @@ jobs:
   include:
     - script: npm test
     - stage: deploy
-      script: npm run deploy
+      script: 
+        - chmod +x ./deploy
+        - npm run deploy
       if: branch = vuepress

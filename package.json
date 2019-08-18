@@ -8,7 +8,8 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "test": "echo \"Working on browser tests soon\"",
-    "deploy": "./deploy.sh"
+    "deploy": "./deploy.sh",
+    "deploy:ci": "./deploy_ci.sh"
   },
   "repository": {
     "type": "git",

@@ -14,7 +14,7 @@ Welcome back to the tutorial, today we will be working through JavaScript `opera
 Be sure to check out the first tutorial for the project set up, or download the project [here](https://github.com/softwarewright/learn-js-thru-testing/archive/variables.zip). Run `npm install` inside of the project folder to get started if you download it.
 :::
 
-**Before getting started be sure to create a `basic-operators.spec.js` file in your project directory. This is where we will put all of the new `Test Cases`.**
+**Before getting started be sure to create a `basic-arithmetic-operators.spec.js` file in your project directory. This is where we will put all of the new `Test Cases`.**
 
 ## Basic Arithmetic Operators
 

@@ -8,5 +8,5 @@ jobs:
     - stage: deploy
       script: 
         - chmod +x ./deploy.sh
-        - npm run deploy
+        - npm run deploy:ci
       if: branch = vuepress

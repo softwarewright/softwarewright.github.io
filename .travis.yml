@@ -2,11 +2,6 @@ language: node
 node_js:
   - 10
 
-# Add selenium tests soon
-script:
-  - npm run deploy
-
-
 jobs:
   include:
     - script: npm test

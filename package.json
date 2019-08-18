@@ -7,6 +7,7 @@
     "start": "npm run docs:dev",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "test": "echo \"Working on browser tests soon\"",
     "deploy": "./deploy.sh"
   },
   "repository": {

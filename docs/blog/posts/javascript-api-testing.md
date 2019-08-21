@@ -1,6 +1,6 @@
 ---
 title: JavaScript API Testing
-description: Create a JavaScript API Testing framework using common JavaScript libraries
+description: Let's Learn How To Create A JavaScript API Testing framework
 keywords: JavaScript, supertest, TypeScript, jest, API Testing, api, express, test, testing
 image: /posts/javascript.png
 date: Thu, 02 May 2019 05:21:28 GMT

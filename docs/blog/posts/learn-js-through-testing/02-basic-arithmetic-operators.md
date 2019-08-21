@@ -9,10 +9,10 @@ specFile: basic-arithmetic-operators.js
 
 # {{$page.title}}
 
-Welcome back to the tutorial, today we will be working through JavaScript `{{$page.frontmatter.subject}}`. I hope you're as excited as I am to relive elementary school math. Let's start learning!
+Welcome back to the series, today we will be working through JavaScript `{{$page.frontmatter.subject}}`. I hope you're as excited as I am to relive elementary school math. Let's start learning!
 
 ::: tip
-Be sure to check out the first tutorial [here](/blog/posts/learn-js-through-testing/00-getting-started.html) for project set up, or download the project template [here](https://github.com/softwarewright/learn-js-thru-testing/archive/variables.zip). Run `npm install` inside of the project folder to get started if you download it.
+Be sure to check out the first part of the series [here](/blog/posts/learn-js-through-testing/00-getting-started.html) for project set up, or download the project template [here](https://github.com/softwarewright/learn-js-thru-testing/archive/variables.zip). Run `npm install` inside of the project folder to get started if you download it.
 :::
 
 **Before getting started be sure to create a `{{$page.frontmatter.specFile}}` file in your project directory. This is where we will put all of the new `Test Cases`.**
@@ -21,7 +21,7 @@ Be sure to check out the first tutorial [here](/blog/posts/learn-js-through-test
 
 In the table below we list some of the basic `operators` that exist withing the JavaScript Language. I'm sure that you will recognize at least a few of them from your 4th grade math class. Throughout this tutorial we will use this table to prove out their usage in JavaScript.
 
-**Assume the following variables exist**
+**Given the following variables:**
 
 ``` javascript
 var x = 10;

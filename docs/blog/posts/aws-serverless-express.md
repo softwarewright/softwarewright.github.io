@@ -1,6 +1,6 @@
 ---
 title: ExpressJS To Serverless
-description: Learn how to change an ExpressJS API into a serverless API with just a few tweaks.
+description: Let's Learn About ExpressJS with Serverless.
 keywords: AWS, Lambda, express, aws-serverless-express,sam,aws-sam-cli,sam-local,serverless,api, CloudFormation
 image: /posts/lambda.png
 date: Sun, 05 May 2019 02:48:40 GMT

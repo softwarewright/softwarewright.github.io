@@ -146,7 +146,7 @@ test("the multiplication of two numbers will be their product", () => {
 Division is bit different than the others, when dividing values in JavaScript you will run into something called `floating point numbers`. `Floating point` numbers, at a high level, allow us to represent decimal values in JavaScript. For example, if we wanted to represent the value of PI we could assign a variable to the value `3.14`.
 
 ::: tip
-Technically all numbers in JavaScript are 64-bit floating-point numbers. If you want to understand a bit more about floating-point numbers check out this article [here](https://medium.com/@sarafecadu/64-bit-floating-point-a-javascript-story-fa6aad266665).
+Technically all numbers in JavaScript are 64-bit floating-point numbers. If you want to understand a bit more about floating-point numbers check out [this article](https://medium.com/@sarafecadu/64-bit-floating-point-a-javascript-story-fa6aad266665).
 :::
 
 Back to writing our `Test Case` we will need to keep in mind that since `10` cannot be evenly divided by `3` the result will be a `decimal` value. As a result, we `expect` `x/y` `toBe` `3.3333333333333335` is our `Test Assertion`. The rest of the test will follow the same rules as all of the others.

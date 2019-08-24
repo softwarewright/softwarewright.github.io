@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <p>
-      Have a question? Feel free to contact me
-      <a href="mailto:contact@softwarebywright.com">here</a> or fill out the form below.
+      Have a question? Feel free to contact me at my email
+      <a href="mailto:contact@softwarebywright.com">contact@softwarebywright.com</a> or fill out the form below.
     </p>
     <form action="https://formspree.io/contact@softwarebywright.com" method="POST">
       <div class="form-group row">

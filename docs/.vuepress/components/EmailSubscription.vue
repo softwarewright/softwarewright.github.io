@@ -15,7 +15,7 @@
         type="email"
         value
         name="EMAIL"
-        class="form-control email-input col-9 col-lg-6"
+        class="form-control email-input col-8 col-lg-6"
         id="mce-EMAIL"
         placeholder="email address"
         required
@@ -28,7 +28,7 @@
         type="submit"
         name="subscribe"
         id="mc-embedded-subscribe"
-        class="btn btn-primary col-3 col-lg-2"
+        class="btn btn-primary col-4 col-lg-2"
       >Subscribe</button>
     </form>
   </div>

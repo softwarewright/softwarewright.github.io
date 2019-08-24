@@ -14,7 +14,3 @@ export default {
   props: ["subject"]
 };
 </script>
-<style scoped>
-h2 {
-}
-</style>

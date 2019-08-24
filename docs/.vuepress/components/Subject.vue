@@ -1,11 +1,20 @@
 <template>
-  <div class="post">
+  <div class="card text-center my-4">
+    <img
+      v-if="subject.image"
+      class="card-img-top"
+      :src="$withBase(subject.image)"
+      alt
+    />
     <router-link :to="subject.path">
-      <h2 class="my-4">{{ subject.title }}</h2>
-      <div>
-        <img v-if="subject.image" :src="$withBase(subject.image)" alt />
+      <div class="card-body">
+        <div class="text-container">
+          <h5 class="card-title">{{ subject.title }}</h5>
+        </div>
+        <div class="text-container">
+          <p class="card-text">{{ subject.description }}</p>
+        </div>
       </div>
-      <p class="my-4">{{ subject.description }}</p>
     </router-link>
   </div>
 </template>
@@ -14,3 +23,9 @@ export default {
   props: ["subject"]
 };
 </script>
+<style scoped>
+.card {
+ width: 65%;
+ margin: auto;
+}
+</style>

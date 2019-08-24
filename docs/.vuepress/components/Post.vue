@@ -23,11 +23,3 @@ export default {
   props: ["post"]
 };
 </script>
-<style scoped>
-.text-container {
-  height: 3.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-</style>

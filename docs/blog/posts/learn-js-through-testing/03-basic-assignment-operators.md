@@ -35,16 +35,17 @@ var y = 3;
 ||-=|x -= y|7| Assign the variable on the left  of the equal sign to the value of the variable subtracted by the value to the right.|
 ||*=|x *= y|30| Assign the variable on the left  of the equal sign to the value of the variable multiplied by the value to the right. |
 ||/=|x /= y|3.3333333333333335| Assign the variable on the left  of the equal sign to the value of the variable divided by the value to the right. |
+||%=|x %= y|1| Assign the variable on the left  of the equal sign to the value of the variable modulus the value to the right. |
 
 Great now that we have our table let's start making `Test Cases` for each of the `assignment operators`. 
 
 ### = (Assign)
 
-This first operator should feel familiar since we have been using it since the beginning of the series, it is simple value assignment. Therefore when looking at the example in the chart you can seen that we assign the value of `y` to `x`, this overrides the previous value that the `variable` `x` once held. As a result the value of `x` is now `3` and the value of `y` remains the same. With this information we can start by creating our `Test Case`, the description being `assignment changes the variable on the left to the value on the right`.
+This first operator should feel familiar since we have been using it since the beginning of the series, it is simple value assignment. Therefore when looking at the example in the chart you can seen that we assign the value of `y` to `x`, this overrides the previous value that the `variable` `x` once held. As a result the value of `x` is now `3` and the value of `y` remains the same. With this information we can start by creating our `Test Case`, the description being `the = operator changes the variable on the left to the value on the right`.
 
 ``` javascript
 // test case description goes here
-test("assignment changes the variable on the left to the value on the right", () => {
+test("the = operator changes the variable on the left to the value on the right", () => {
  // assertions go here
 })
 ```
@@ -53,7 +54,7 @@ Next we need to create our `variables` `x` and `y` with the same values expected
 
 ``` javascript {4,5}
 // test case description goes here
-test("assignment changes the variable on the left to the value on the right", () => {
+test("the = operator changes the variable on the left to the value on the right", () => {
  // assertions go here
  var x = 10;
  var y = 3;
@@ -64,7 +65,7 @@ After that is done we will follow the usage from the chart and assign the value 
 
 ``` javascript {7}
 // test case description goes here
-test("assignment changes the variable on the left to the value on the right", () => {
+test("the = operator changes the variable on the left to the value on the right", () => {
  // assertions go here
  var x = 10;
  var y = 3;
@@ -73,7 +74,7 @@ test("assignment changes the variable on the left to the value on the right", ()
 })
 ```
 
-Now that `x` has been assigned the value of `y` our `Test Assertion` should be that we `expect` `x` `toBe` `3`. In addition we will add an extra `Test Assertion` that the value of `y` has not changed meaning we `expect` `y` `toBe` `3`. The assignment of the `x` variable has no effect on the value of the `y` variable.
+Now that `x` has been assigned the value of `y` our `Test Assertion` should be that we `expect` `x` `toEqual` `3`. In addition we will add an extra `Test Assertion` that the value of `y` has not changed meaning we `expect` `y` `toEqual` `3`. The assignment of the `x` variable has no effect on the value of the `y` variable.
 
 ::: tip
 Since we are dealing with `value types` (numbers) the changes that happen to `x` will not effect `y`, later in the series will we talk about how `reference types` can be effected by changes done after assignment. If this previous sentence doesn't make sense don't worry we will cover it all in detail in a later piece of this series.
@@ -81,15 +82,15 @@ Since we are dealing with `value types` (numbers) the changes that happen to `x`
 
 ``` javascript {9,10}
 // test case description goes here
-test("assignment changes the variable on the left to the value on the right", () => {
+test("the = operator changes the variable on the left to the value on the right", () => {
  // assertions go here
  var x = 10;
  var y = 3;
 
  x = y;
 
- expect(x).toBe(3)
- expect(y).toBe(3)
+ expect(x).toEqual(3)
+ expect(y).toEqual(3)
 })
 ```
 
@@ -103,14 +104,192 @@ Again get into the habit of always running your `Test Cases` after adding a new 
 
 The `+=` operator is actually shorthand for add the variable on the left (x) to the value on the right (x) then perform assignment to that same variable. The operation extended looks like this `x = x + y`, if we were to swap the variables for number we end up with the following `13 = 10 + 3`. Once again the `+=` operator condenses the previously mentioned expression into the following `x += y`.
 
-Now that we understand the magic behind the shorthand we can start writing our `Test Case`. The description should be `add then assign changes the variable on the left to be the variable on the right plus itself`.
+Now that we understand the magic behind the shorthand operator we can start writing our `Test Case`. The description should be `add then assign changes the variable on the left to be itself plus the variable on the right`.
 
 ``` javascript {2}
 // test case description goes here
-test("add then assign changes the variable on the left to be the variable on the right plus itself", () => {
+test("+= changes the variable on the left to be itself plus the variable on the right", () => {
  // assertions go here
 })
 ```
+
+Once again we add our variables `x` and `y` with the values `10` and `3 respectively`.
+
+``` javascript {4}
+// test case description goes here
+test("+= changes the variable on the left to be itself plus the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+})
+```
+
+Then use the `+=` `Assignment Operator`, which should give the variable `x` a value of `13`.
+
+``` javascript {6}
+// test case description goes here
+test("+= changes the variable on the left to be itself plus the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+
+ x += y;
+})
+```
+
+Finally create our `Test Assertion` that we `expect` `x` `toEqual` `13`
+
+
+``` javascript {8}
+// test case description goes here
+test("+= changes the variable on the left to be itself plus the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+
+ x += y;
+
+ expect(x).toEqual(13);
+})
+```
+
+Great work! Now we just need to run the `Test Cases` to be sure they are passing.
+
+::: tip
+I would highly recommend attempting the other assignment operators now, and proving them out with `Test Cases`. If you don't quite feel comfortable with that yet, feel free to follow along.
+:::
+
+### -= (Subtract then assign)
+
+The `-=` `operator` follows the exact same rules as the `+=` `operator` the only difference being that it performs subtraction instead of addition. Therefore when performing `x -= y` where `var x = 10;` and `var y = 3;` then the end result will be `7`, because `7 = 10 - 3`. Given that the operators are so similar our `Test Cases` will be as well, the description should read `-= operator changes the variable on the left to be itself minus the variable on the right`.
+
+``` javascript {2}
+// test case description goes here
+test("-= operator changes the variable on the left to be itself minus the variable on the right", () => {
+ // assertions go here
+})
+```
+
+Then we need to add our variables and perform the operation.
+
+
+``` javascript {4,5,7}
+// test case description goes here
+test("-= operator changes the variable on the left to be itself minus the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+
+ x -= y;
+})
+```
+
+This should give `x` the value of `7`, thus our `Test Assertion` should be `expect` `x` `toEqual` `7`.
+
+
+``` javascript {4,5,7}
+// test case description goes here
+test("-= operator changes the variable on the left to be itself minus the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+
+ x -= y;
+
+ expect(x).toEqual(7);
+})
+```
+
+Once again give your `Test Cases` a run using `npm test`, and once they are passing move on to the next operator.
+
+### -= (Multiply then assign)
+
+Once again this operator is similar to the others the only difference being the type of operation is multiplication. As a result the operation `x *= y` given `var x = 10;` and `var y = 3;` the result of `x` will be `30`. Let's get started by creating our description, `*= operator changes the variable on the left to be itself multiplied the variable on the right`.
+
+
+``` javascript {2}
+// test case description goes here
+test("*= operator changes the variable on the left to be itself multiplied the variable on the right", () => {
+ // assertions go here
+})
+```
+
+Next we will create our variables and perform the operation.
+
+``` javascript {4,5,7}
+// test case description goes here
+test("*= operator changes the variable on the left to be itself multiplied the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+
+ x *= y;
+})
+```
+
+As we discussed above the value of `x` will now be `30` and our `Test Assertion` will be that we `expect` `x` `toEqual` `30`.
+
+
+``` javascript {9}
+// test case description goes here
+test("*= operator changes the variable on the left to be itself multiplied the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+
+ x *= y;
+
+ expect(x).toEqual(30);
+})
+```
+
+### -= (Divide then assign)
+
+Just like the other operators `/=` follows the same rules the only difference being the operation is division. Therefore `x /= y` given `var x = 10;` and `var y = 3` will assign `x` the value of `3.3333333333333335`. Now that we know what we are expecting, let's start the `Test Case`! The description should look like the following, `/= operator changes the variable on the left to be itself divided by the variable on the right`.
+
+``` javascript {2}
+// test case description goes here
+test("/= operator changes the variable on the left to be itself divided by the variable on the right", () => {
+ // assertions go here
+})
+```
+
+Once again let's create our variables and perform the operation.
+
+``` javascript {4,5,7}
+// test case description goes here
+test("/= operator changes the variable on the left to be itself divided by the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+
+ x /= y;
+})
+```
+
+This will assign `x` the value of `3.3333333333333335` which in turn gives us the `Test Assertion` that we `expect` `x` `toEqual` `3.3333333333333335`.
+
+``` javascript {9}
+// test case description goes here
+test("/= operator changes the variable on the left to be itself divided by the variable on the right", () => {
+ // assertions go here
+ var x = 10;
+ var y = 3;
+
+ x /= y;
+
+ expect(x).toEqual(30);
+})
+```
+
+### %= (Modulus then assign)
+
+On to the final operator of the day, modulus then assign. Much like the others it follows the same rules just with a modulus operator instead.
+
+::: tip
+If you are not familiar with the modulus operator checkout the [previous tutorial]()
+:::
+
 
 If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 

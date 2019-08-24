@@ -17,7 +17,7 @@ module.exports = {
                 '00-getting-started',
                 '01-variables',
                 '02-basic-arithmetic-operators',
-                // '03-basic-assignment-operators',
+                '03-basic-assignment-operators'
             ]
         },
         nav: [

@@ -1,11 +1,11 @@
 <template>
   <div class="post">
     <router-link :to="subject.path">
+      <h2 class="my-4">{{ subject.title }}</h2>
       <div>
         <img v-if="subject.image" :src="$withBase(subject.image)" alt />
       </div>
-      <h2>{{ subject.title }}</h2>
-      <p>{{ subject.description }}</p>
+      <p class="my-4">{{ subject.description }}</p>
     </router-link>
   </div>
 </template>

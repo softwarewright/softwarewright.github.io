@@ -1,6 +1,6 @@
 ---
 title: Make your own API Testing Sandbox
-description: Learn how to test an API by creating yourvery own sandbox to practice testing
+description: Let's Learn About Creating An API Testing Sandbox
 image: /posts/testing.png
 date: Sun, 05 May 2019 03:28:47 GMT
 ---

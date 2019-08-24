@@ -1,6 +1,8 @@
 <template>
-  <div class="posts" v-if="posts.length">
-    <Post v-for="post in posts" :post="post" />
+  <div class="posts d-flex flex-wrap" v-if="posts.length">
+    <div v-for="post in posts" class="col-sm-6">
+      <Post :post="post" />
+    </div>
   </div>
 </template >
 

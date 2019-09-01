@@ -17,7 +17,8 @@ module.exports = {
                 '00-getting-started',
                 '01-variables',
                 '02-basic-arithmetic-operators',
-                '03-basic-assignment-operators'
+                '03-basic-assignment-operators',
+                '04-equality-operators'
             ]
         },
         nav: [
@@ -25,8 +26,9 @@ module.exports = {
             { text: 'Blog', link: '/blog/' },
             { text: 'Learn', link: '/learn/' },
             { text: 'Contact', link: '/contact/' },
-            { text: 'GitHub', link: 'https://github.com/softwarewright' },
-            { text: 'Twitter', link: 'https://twitter.com/softwarewright' }
+            // Move these links to the footer with icons
+            // { text: 'GitHub', link: 'https://github.com/softwarewright' },
+            // { text: 'Twitter', link: 'https://twitter.com/softwarewright' }
         ],
         logo: '/small-logo.png',
 
@@ -34,7 +36,7 @@ module.exports = {
         repo: 'softwarewright/softwarewright.github.io',
         // Customising the header label
         // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
-        repoLabel: 'Contribute!',
+        repoLabel: '',
 
         // Optional options for generating "Edit this page" link
 

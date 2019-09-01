@@ -244,7 +244,7 @@ test("strict inequality operator !== checks that two values are strictly unequal
 
 Then our final `Test Assertion`, we `expect` `10 !== 10` `toBeFalse`. This is a false statement because the two values are the same, therefore equal.
 
-``` javascript {5}
+``` javascript {6}
 // test case description goes here
 test("strict inequality operator !== checks that two values are strictly unequal", () => {
  // assertions go here

@@ -22,13 +22,21 @@ module.exports = {
             ]
         },
         nav: [
-            { text: 'Home', link: '/' },
+            // { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
             { text: 'Learn', link: '/learn/' },
             { text: 'Contact', link: '/contact/' },
-            // Move these links to the footer with icons
-            // { text: 'GitHub', link: 'https://github.com/softwarewright' },
-            // { text: 'Twitter', link: 'https://twitter.com/softwarewright' }
+            { 
+                text: 'Social',
+                items: [
+                    { text: 'GitHub', link: 'https://github.com/softwarewright' },
+                    { text: 'Twitter', link: 'https://twitter.com/softwarewright' },
+                    { text: 'Facebook', link: 'https://www.facebook.com/softwarewright' },                    
+                    { text: 'Instagram', link: 'https://www.instagram.com/softwarewright/' },
+                    { text: 'YouTube', link: 'https://www.youtube.com/channel/UCl_Aa4mKPKspKyBm8JnHYKQ'},
+                    { text: 'LinkedIn', link: 'https://www.linkedin.com/in/darrius-wright' },
+                ] 
+            }
         ],
         logo: '/small-logo.png',
 

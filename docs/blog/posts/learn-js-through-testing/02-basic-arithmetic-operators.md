@@ -4,7 +4,7 @@ description: Let's Learn About Basic Arithmetic Operators
 image: /posts/javascript.png
 date: Fri Aug 16 2019 22:38:56
 subject: Arithmetic Operators
-specFile: basic-arithmetic-operators.js
+specFile: basic-arithmetic-operators.spec.js
 ---
 
 # {{$page.title}}
@@ -19,7 +19,7 @@ Be sure to check out the first part of the series [here](/blog/posts/learn-js-th
 
 ## Basic Arithmetic Operators
 
-In the table below we list some of the basic `operators` that exist withing the JavaScript Language. I'm sure that you will recognize at least a few of them from your 4th grade math class. Throughout this tutorial we will use this table to prove out their usage in JavaScript.
+In the table below we list some of the basic `operators` that exist within the JavaScript Language. I'm sure that you will recognize at least a few of them from your 4th grade math class. Throughout this tutorial we will use this table to prove out their usage in JavaScript.
 
 **Given the following variables:**
 
@@ -37,7 +37,7 @@ var y = 3;
 | % | Modulus (remainder operator) | x % y | 1 |
 
 ::: tip
-The modulus operator is called the remainder operator because it will first divide the first number by the second number, then if the first number cannot be divided evenly by the second number the leftover amount is the remainder. For example 13 % 5 would be 3 because 13 can be divided evenly 5 five 2 times with a remainder value of 3. I would recommend trying with other values to practice with this operator. 
+The modulus operator is called the remainder operator because it will first divide the first number by the second number, then if the first number cannot be divided evenly by the second number the leftover amount is the remainder. For example 13 % 5 would be 3 because 13 can be divided evenly by 5, 2 times with a remainder value of 3. I would recommend trying with other values to practice with this operator. 
 :::
 
 Now that we have covered the table on to our `Test Assertions` for each of the `operators`.

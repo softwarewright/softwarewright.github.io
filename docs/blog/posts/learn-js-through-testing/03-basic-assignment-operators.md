@@ -1,5 +1,5 @@
 ---
-title: "Learn JavaScript Through Testing #3"
+title: "Assignment Operators LJTT #3"
 description: Let's Learn About Basic Assignment Operators
 image: /posts/javascript.png
 date: Sun Aug 18 2019 12:12:09

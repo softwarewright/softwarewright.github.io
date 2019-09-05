@@ -1,5 +1,5 @@
 ---
-title: "Learn JavaScript Through Testing #2"
+title: "Arithmetic Operators LJTT #2"
 description: Let's Learn About Basic Arithmetic Operators
 image: /posts/javascript.png
 date: Fri Aug 16 2019 22:38:56

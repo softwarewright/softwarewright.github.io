@@ -1,5 +1,5 @@
 ---
-title: "Learn JavaScript Through Testing #4"
+title: "Equality Operators LJTT #4"
 description: Let's Learn About Equality Operators
 image: /posts/javascript.png
 date: Sat Aug 24 2019 18:07:03

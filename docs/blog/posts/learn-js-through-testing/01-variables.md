@@ -1,5 +1,5 @@
 ---
-title: "Learn JavaScript Through Testing #1"
+title: "Variables LJTT #1"
 description: Let's Learn About Variables.
 image: /posts/javascript.png
 date: Thu Aug 15 2019 20:27:33

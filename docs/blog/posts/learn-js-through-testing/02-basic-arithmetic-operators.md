@@ -40,7 +40,7 @@ var y = 3;
 The modulus operator is called the remainder operator because it will first divide the first number by the second number, then if the first number cannot be divided evenly by the second number the leftover amount is the remainder. For example 13 % 5 would be 3 because 13 can be divided evenly 5 five 2 times with a remainder value of 3. I would recommend trying with other values to practice with this operator. 
 :::
 
-Now that we have covered the table on to our `Test Assertions` for each of the `operators`.
+Now that we have covered the table, we can begin writing the `Test Assertions` for each of the `operators`.
 
 ### Addition
 

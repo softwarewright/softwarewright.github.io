@@ -1,5 +1,5 @@
 ---
-title: "Learn JavaScript Through Testing #0"
+title: "Project Setup LJTT #0"
 description: Let's Learn About Project Setup
 image: /posts/javascript.png
 date: Tue Aug 13 2019 21:20:31

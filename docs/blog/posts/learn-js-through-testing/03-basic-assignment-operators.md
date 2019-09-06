@@ -4,7 +4,7 @@ description: Let's Learn About Basic Assignment Operators
 image: /posts/javascript.png
 date: Sun Aug 18 2019 12:12:09
 subject: Assignment Operators
-specFile: basic-assignment-operators.js
+specFile: basic-assignment-operators.spec.js
 ---
 
 # {{$page.title}}
@@ -22,7 +22,7 @@ Be sure to check out the first part of the series [here](/blog/posts/learn-js-th
 Much like in the previous post [arithmetic operators](/blog/post/learn-js-thru-testing/02-basic-arithmetic-operators), we will start with a table listing the common operators that exist in JavaScript.
 
 ::: tip
-There are other assignment operators in JavaScript, for now, we will stick with the basics and cover the others in a later tutorial.
+There are other assignment operators in JavaScript. For now, we will stick with the basics and cover the others in a later tutorial.
 :::
 
 **Given the following variables:**
@@ -49,7 +49,7 @@ Great now that we have our table let's start making `Test Cases` for each of the
 
 ### = (Assignment)
 
-This first operator should feel familiar since we have been using it since the beginning of the series. The `Assignment Operator`, does just that assigns the variable on the left to the value on the right. Therefore when looking at the example in the chart it can be seen that assigning the value of `y` to `x` will override the previous value of that the `variable` `x` once held. As a result, the value of `x` is now `3` and the value of `y` remains the same. With this information we can start by creating our `Test Case`, the description being `the = operator changes the variable on the left to the value on the right`.
+This first operator should feel familiar since we have been using it since the beginning of the series. The `Assignment Operator`, does just that; assigns the variable on the left to the value on the right. Therefore when looking at the example in the chart it can be seen that assigning the value of `y` to `x` will override the previous value of that the `variable` `x` once held. As a result, the value of `x` is now `3` and the value of `y` remains the same. With this information we can start by creating our `Test Case`, the description being `the = operator changes the variable on the left to the value on the right`.
 
 ``` javascript
 // test case description goes here
@@ -85,7 +85,7 @@ test("the = operator changes the variable on the left to the value on the right"
 Now that `x` has been assigned the value of `y` our `Test Assertion` should be that we `expect` `x` `toEqual` `3`. Also, we will add an extra `Test Assertion` that the value of `y` has not changed, meaning we `expect` `y` `toEqual` `3`. The assignment of the `x` variable does not affect the value of the `y` variable.
 
 ::: tip
-Since we are dealing with `value types` the changes that happen to `x` will not affect `y`, later in the series will we talk about how `reference types` can be affected by changes done after being assigned. If this previous sentence doesn't make sense don't worry we will cover it all in detail in a later piece of this series.
+Since we are dealing with `value types` the changes that happen to `x` will not affect `y`. Later in the series will we talk about how `reference types` can be affected by changes done after being assigned. If this previous sentence doesn't make sense, don't worry we will cover it all in detail in a later piece of this series.
 :::
 
 ``` javascript {9,10}
@@ -211,7 +211,7 @@ Give your `Test Cases` a run using `npm test`, and once they are passing move on
 
 ### -= (Multiplication Assignment)
 
-Once again this operator is similar to the others the only difference being the type of operation is multiplication. As a result the operation `x *= y` given `var x = 10;` and `var y = 3;` the result of `x` will be `30`. Let's get started by creating our description, `*= operator changes the variable on the left to be itself multiplied the value on the right`.
+Once again this operator is similar to the others; the only difference being the type of operation is multiplication. As a result the operation `x *= y` given `var x = 10;` and `var y = 3;` the result of `x` will be `30`. Let's get started by creating our description, `*= operator changes the variable on the left to be itself multiplied the value on the right`.
 
 
 ``` javascript {2}

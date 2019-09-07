@@ -256,6 +256,8 @@ test("strict inequality operator !== checks that two values are strictly unequal
 
 That's it for this tutorial on `Equality Operators` great work making it all the way through! If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
+## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+
 <EmailSubscription />
 
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

@@ -278,6 +278,8 @@ Source code can be found [here](https://github.com/softwarebywright/javascript-a
 - [Supertest Documenation](https://github.com/visionmedia/supertest)
 - [Extending Supertest Issue](https://github.com/visionmedia/supertest/issues/381)
 
+## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+
 <EmailSubscription />
 
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

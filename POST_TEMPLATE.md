@@ -21,6 +21,8 @@ Be sure to check out the first part of the series [here](/blog/posts/learn-js-th
 
 If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
+## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+
 <EmailSubscription />
 
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

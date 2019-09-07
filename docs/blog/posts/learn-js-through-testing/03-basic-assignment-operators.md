@@ -340,6 +340,8 @@ test("%= operator changes the variable on the left to be itself modulus the valu
 ```
 That's all for the basic assignment operators of JavaScript, great work getting through another tutorial! If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
+## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+
 <EmailSubscription />
 
 <vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />

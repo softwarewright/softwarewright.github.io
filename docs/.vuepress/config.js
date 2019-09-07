@@ -26,6 +26,7 @@ module.exports = {
             { text: 'Blog', link: '/blog/' },
             { text: 'Learn', link: '/learn/' },
             { text: 'Contact', link: '/contact/' },
+            { text: 'Support', link: 'https://www.patreon.com/softwarewright' },
             { 
                 text: 'Social',
                 items: [

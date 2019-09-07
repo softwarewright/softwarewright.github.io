@@ -64,7 +64,7 @@ test("the addition of two numbers will be their sum", () => {
 })
 ```
 
-With the creation of these `variables` can use the `addition` `operator` on them to write our `Test Assertion`, `expect` `x + y` `toBe` `13`.
+With the creation of these `variables` we can use the `addition` `operator` on them to write our `Test Assertion`, `expect` `x + y` `toBe` `13`.
 
 
 ``` javascript {7}

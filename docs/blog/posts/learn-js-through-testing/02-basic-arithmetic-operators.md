@@ -64,7 +64,7 @@ test("the addition of two numbers will be their sum", () => {
 })
 ```
 
-With the creation of these `variables` we can use the `addition` `operator` on them to write our `Test Assertion`, `expect` `x + y` `toBe` `13`.
+With the creation of these `variables` we can use the `addition` `operator` on them to write our `Test Assertion`, `expect` `x + y` `toEqual` `13`.
 
 
 ``` javascript {7}
@@ -74,7 +74,7 @@ test("the addition of two numbers will be their sum", () => {
  var x = 10;
  var y = 3;
 
- expect(x + y).toBe(13);
+ expect(x + y).toEqual(13);
 })
 ```
 
@@ -106,7 +106,7 @@ test("the subtraction of two numbers will be their difference", () => {
 })
 ```
 
-Finally we add our `Test Assertion` that we `expect` `x - y` `toBe` `7`, since `10 - 3 = 7`.
+Finally we add our `Test Assertion` that we `expect` `x - y` `toEqual` `7`, since `10 - 3 = 7`.
 
 ``` javascript {7}
 // test case description goes here
@@ -115,7 +115,7 @@ test("the subtraction of two numbers will be their difference", () => {
  var x = 10;
  var y = 3;
 
- expect(x - y).toBe(7)
+ expect(x - y).toEqual(7)
 })
 ```
 
@@ -127,7 +127,7 @@ I would **highly recommend** getting in the habit of running your `Test Cases` a
 
 ### Multiplication
 
-On to multiplication, when multiplying two `variables` that are `numbers` the result will be the product of the two `numbers`. We will follow the same logic as the previous `Test Cases` and create our description `the multiplication of two numbers will be their product`, the `variables`, the `Test Assertion` that we `expect` `x * y` `toBe` `30`.
+On to multiplication, when multiplying two `variables` that are `numbers` the result will be the product of the two `numbers`. We will follow the same logic as the previous `Test Cases` and create our description `the multiplication of two numbers will be their product`, the `variables`, the `Test Assertion` that we `expect` `x * y` `toEqual` `30`.
 
 
 ``` javascript
@@ -137,7 +137,7 @@ test("the multiplication of two numbers will be their product", () => {
  var x = 10;
  var y = 3;
 
- expect(x * y).toBe(30)
+ expect(x * y).toEqual(30)
 })
 ```
 
@@ -149,7 +149,7 @@ Division is bit different than the others, when dividing values in JavaScript yo
 Technically all numbers in JavaScript are 64-bit floating-point numbers. If you want to understand a bit more about floating-point numbers check out [this article](https://medium.com/@sarafecadu/64-bit-floating-point-a-javascript-story-fa6aad266665).
 :::
 
-Back to writing our `Test Case` we will need to keep in mind that since `10` cannot be evenly divided by `3` the result will be a `decimal` value. As a result, we `expect` `x/y` `toBe` `3.3333333333333335` is our `Test Assertion`. The rest of the test will follow the same rules as all of the others.
+Back to writing our `Test Case` we will need to keep in mind that since `10` cannot be evenly divided by `3` the result will be a `decimal` value. As a result, we `expect` `x/y` `toEqual` `3.3333333333333335` is our `Test Assertion`. The rest of the test will follow the same rules as all of the others.
 
 
 ``` javascript
@@ -159,13 +159,13 @@ test("the division of two numbers will be their quotient", () => {
  var x = 10;
  var y = 3;
 
- expect(x / y).toBe(3.3333333333333335)
+ expect(x / y).toEqual(3.3333333333333335)
 })
 ```
 
 ### Modulus
 
-As mentioned in the chart above the `modulus operator`, otherwise known as the `remainder operator`, can be used to obtain remainder from the division of two numbers. In our case, we `expect` `x % y` `toBe` `1`, because the remainder after dividing `10` by `3` will be `1`. The rest of the `Test Case` will follow the same rules as the others.
+As mentioned in the chart above the `modulus operator`, otherwise known as the `remainder operator`, can be used to obtain remainder from the division of two numbers. In our case, we `expect` `x % y` `toEqual` `1`, because the remainder after dividing `10` by `3` will be `1`. The rest of the `Test Case` will follow the same rules as the others.
 
 ``` javascript
 // test case description goes here
@@ -174,7 +174,7 @@ test("the modulus of two numbers will be their remainder", () => {
  var x = 10;
  var y = 3;
 
- expect(x % y).toBe(1)
+ expect(x % y).toEqual(1)
 })
 ```
 

@@ -4,7 +4,7 @@ description: Let's Learn About Equality Operators
 image: /posts/javascript.png
 date: Sat Aug 24 2019 18:07:03
 subject: Equality Operators
-specFile: equality-operators.js
+specFile: equality-operators.spec.js
 ---
 
 # {{$page.title}}

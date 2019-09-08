@@ -27,16 +27,16 @@ module.exports = {
             { text: 'Learn', link: '/learn/' },
             { text: 'Contact', link: '/contact/' },
             { text: 'Support', link: 'https://www.patreon.com/softwarewright' },
-            { 
+            {
                 text: 'Social',
                 items: [
                     { text: 'GitHub', link: 'https://github.com/softwarewright' },
                     { text: 'Twitter', link: 'https://twitter.com/softwarewright' },
-                    { text: 'Facebook', link: 'https://www.facebook.com/softwarewright' },                    
+                    { text: 'Facebook', link: 'https://www.facebook.com/softwarewright' },
                     { text: 'Instagram', link: 'https://www.instagram.com/softwarewright/' },
-                    { text: 'YouTube', link: 'https://www.youtube.com/channel/UCl_Aa4mKPKspKyBm8JnHYKQ'},
+                    { text: 'YouTube', link: 'https://www.youtube.com/channel/UCl_Aa4mKPKspKyBm8JnHYKQ' },
                     { text: 'LinkedIn', link: 'https://www.linkedin.com/in/darrius-wright' },
-                ] 
+                ]
             }
         ],
         logo: '/small-logo.png',
@@ -63,12 +63,25 @@ module.exports = {
     },
     ga: 'UA-139419580-4',
     plugins: [
+        ['@vuepress/google-analytics', { 'ga': 'UA-139419580-4' }],
+        // 'vuepress-plugin-disqus',
         [
-            '@vuepress/google-analytics',
+            'feed',
             {
-                'ga': 'UA-139419580-4'
-            },
-            'vuepress-plugin-disqus'
+                enable: true,
+                canonical_base: "https://softwarewright.dev/",
+                feeds: {
+                    rss2: {
+                        enable: true,
+                        file_name: 'rss.xml',
+                        head_link: {
+                            enable: true,
+                            type: 'application/rss+xml',
+                            title: '%%site_title%% RSS Feed',
+                        }
+                    }
+                }
+            }
         ]
     ]
 }

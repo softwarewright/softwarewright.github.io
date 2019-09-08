@@ -285,4 +285,4 @@ Congratulations! You have just created your first `Test Case` with a `Test Asser
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="v-8d1635e8" :url="$page.url" />

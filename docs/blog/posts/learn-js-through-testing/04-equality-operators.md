@@ -260,4 +260,4 @@ That's it for this tutorial on `Equality Operators` great work making it all the
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="v-907b5330" :url="$page.url" />

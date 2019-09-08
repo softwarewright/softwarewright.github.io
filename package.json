@@ -28,6 +28,7 @@
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.3",
     "vuepress": "^1.0.3",
-    "vuepress-plugin-disqus": "^0.1.1"
+    "vuepress-plugin-disqus": "^0.1.1",
+    "vuepress-plugin-feed": "^0.1.7"
   }
 }

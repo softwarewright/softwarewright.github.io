@@ -345,4 +345,4 @@ Amazing work getting through the tutorial, we've just scratched the surface on v
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="v-2eb5b4e8" :url="$page.url" />

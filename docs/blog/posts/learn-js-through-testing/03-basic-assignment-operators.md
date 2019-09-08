@@ -344,4 +344,4 @@ That's all for the basic assignment operators of JavaScript, great work getting 
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="v-414162dc" :url="$page.url" />

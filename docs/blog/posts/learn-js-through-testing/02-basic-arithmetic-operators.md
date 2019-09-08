@@ -186,4 +186,4 @@ Fantastic work getting through this tutorial, you should now have a basic unders
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="v-d9380870" :url="$page.url" />

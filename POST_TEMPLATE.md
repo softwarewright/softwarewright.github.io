@@ -25,4 +25,4 @@ If you have any questions or feedback feel free to [contact me](/contact) or lea
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="page_name" :url="$page.url" />

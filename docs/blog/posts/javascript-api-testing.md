@@ -282,4 +282,4 @@ Source code can be found [here](https://github.com/softwarebywright/javascript-a
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="javascript_api_testing" :url="$page.url" />

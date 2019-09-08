@@ -164,4 +164,4 @@ Congratulations for making it through, now you've got a fully deployed serverles
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" :identifier="aws_serverless_express" :url="$page.url" />

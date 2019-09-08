@@ -30,10 +30,10 @@ There are a couple of other things that variables can be that we didn't mention 
 :::
 | Type           | Description   |
 |:------------- |:-------------:|
-|String| A sequence of text i.e. "abc"|
-|Number| A numeric value i.e. 10, 34, 90|
+|String| A sequence of text e.g. "abc"|
+|Number| A numeric value e.g. 10, 34, 90|
 |Boolean| A `true` or `false` value, `true` and `false` are both reserved words in JavaScript|
-|Array| Multiple values stored in a single location denoted by square brackets i.e. [1, "two", 3], which can be accessed by indexing into the array. This can be done by using the name of the variable followed by square brackets and a number specifying the element's location in the array i.e. `myArray[0]`. The element's location is also known as the element's index and arrays start their indexes at 0.|
+|Array| Multiple values stored in a single location denoted by square brackets e.g. [1, "two", 3], which can be accessed by indexing into the array. This can be done by using the name of the variable followed by square brackets and a number specifying the element's location in the array e.g. `myArray[0]`. The element's location is also known as the element's index and arrays start their indexes at 0.|
 |Object| A key/value collection of data denoted by curly braces `{ name: "Software Wright" }`. In the example, the key is `name` and the value is a `String` with the value `"Software Wright"`. The `value` of an object's `key` can be obtained by using the `dot operator` in the example above if I wanted the `value` of the name `key` I can use the following syntax `objectValue.name` which you will see below.|
 
 ::: tip
@@ -43,7 +43,7 @@ There are a lot more details that we can go into for Objects, we'll come back to
 
 ### Testing Strings
 
-Great, now that we know what a variable can be let's prove it! We'll start with the first statement about strings, they are `a sequence of text i.e. "abc"`. Perfect we have our `Test Case`, `a sequence of text is a string`. Now we need to open the `variables.spec.js` file from the last post and add the following code:
+Great, now that we know what a variable can be let's prove it! We'll start with the first statement about strings, they are `a sequence of text e.g. "abc"`. Perfect we have our `Test Case`, `a sequence of text is a string`. Now we need to open the `variables.spec.js` file from the last post and add the following code:
 
 ``` javascript
 // test case description goes here

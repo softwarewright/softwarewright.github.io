@@ -163,7 +163,7 @@ There are a couple of pieces of terminology and code that we need to dive into b
 Later in this post, we will show `Test Assertions` look like in the code.
 :::
 
-1. Create a file that ends in `.spec.js` i.e. `variables.spec.js`
+1. Create a file that ends in `.spec.js` e.g. `variables.spec.js`
 
 2. Add a `Test Case`
 ``` javascript

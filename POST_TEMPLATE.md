@@ -4,7 +4,7 @@ description: <description>
 image: /posts/javascript.png
 date: <date>
 subject: <subject>
-specFile: <specfile>.js
+specFile: <specfile>.spec.js
 ---
 
 # {{$page.title}}

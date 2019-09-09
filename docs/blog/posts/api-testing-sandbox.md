@@ -143,4 +143,4 @@ That's it! You now can write tests against a fake server in JavaScript and valid
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="api_testing_sandbox" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="api_testing_sandbox" :url="$page.url" />

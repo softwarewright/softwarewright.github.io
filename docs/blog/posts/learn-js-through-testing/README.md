@@ -14,4 +14,4 @@ If you are interested in the up coming articles check out the Trello board [here
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" :identifier="$page.key" :url="$page.url" />
+<vue-disqus shortname="softwarewright" identifier="blog_posts" :url="$page.url" />

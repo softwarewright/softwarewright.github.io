@@ -12,7 +12,7 @@ specFile: relational-operators.spec.js
 Welcome back to the series, today we will be working through JavaScript `{{$page.frontmatter.subject}}`.
 
 ::: tip
-Be sure to check out the first part of the series [here](/blog/posts/learn-js-through-testing/00-getting-started.html) for project set up, or download the project template [here](https://github.com/softwarewright/learn-js-thru-testing/archive/variables.zip). Run `npm install` inside of the project folder to get started if you download it.
+Be sure to check out the first part of the series [here](/blog/posts/learn-js-through-testing/00-getting-started.html) for project set up, or download the project template [here](https://github.com/softwarewright/learn-js-thru-testing/archive/equality-operators.zip). Run `npm install` inside of the project folder to get started if you download it.
 :::
 
 **Before getting started be sure to create a `{{$page.frontmatter.specFile}}` file in your project directory. This is where we will put all of the new `Test Cases`.**
@@ -22,7 +22,7 @@ Be sure to check out the first part of the series [here](/blog/posts/learn-js-th
 JavaScript's `Relational Operators` compare two values to obtain a `Boolean` result, meaning a `true` or `false` value. These `relational operators` check if values are greater than or less than one another. Time to remember your first-grade math class, because this code is about to get relational! Let's start working our way through the table below to get our bearings.
 
 
-|Operator|Operator Name|Example|Results| Description|
+|Operator|Operator Name|Examples|Results| Description|
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | < | Less Than | 3 < 10 <hr/> 10 < 3 <hr> 3 < 3  | true <hr/> false <hr> false | Checks if the value to the left is less than the value to the right. |
 | <= | Less Than Or Equal To | 3 <= 10 <hr/> 10 <= 3 <hr> 3 <= 3  | true <hr/> false <hr> true | Checks if the value to the left is less than or equal the value to the right. |

@@ -19,7 +19,8 @@ module.exports = {
                 '02-basic-arithmetic-operators',
                 '03-basic-assignment-operators',
                 '04-equality-operators',
-                '05-relational-operators'
+                '05-relational-operators',
+                '06-logical-operators'
             ]
         },
         nav: [

@@ -75,6 +75,14 @@ test("the less than operator checks that the value on the left is less than the 
 Remember `3` is equal to `3` so the last statement resolves to false instead of true. We'll see below how the less than or equal to operator accounts for that.
 :::
 
+::: tip
+The first assertion above can also be written with `toBeLessThan` instead, like so:
+
+``` javascript
+expect(3).toBeLessThan(10)
+```
+:::
+
 Fantasic work! Now that we have our assertions run the `Test Cases` once more using `npm test` and we'll move on to the next operator.
 
 ::: tip
@@ -114,6 +122,17 @@ test("the less than or equal operator checks that the value on the left is less 
 })
 ```
 
+::: tip
+Again for the true assertions we have the ability to use another option besides `toBeTrue`, which is `toBeLessThanOrEqual`:
+
+``` javascript
+expect(3).toBeLessThanOrEqual(10);
+expect(3).toBeLessThanOrEqual(3);
+```
+
+This will be the same for the `GreaterThan` and `GreaterThanOrEqual` operators mentioned below.
+:::
+
 Once again we have a completed `Test Case` so be sure to run your `Test Cases` again using `npm test` and we'll move on to the next operator.
 
 ### Greater Than >
@@ -140,7 +159,7 @@ test("the greater than operator checks that the value on the left is greater tha
 
 Run those `Test Cases` again and move on to the last two examples, we `expect` `10 > 3` `toBeTrue` and we `expect` `3 > 3` `toBeFalse`.
 
-``` javascript {5, 6}
+``` javascript {5,6}
 // test case description goes here
 test("the greater than operator checks that the value on the left is greater than the value on the right", () => {
  // assertions go here

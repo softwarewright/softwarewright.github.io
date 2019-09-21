@@ -18,7 +18,8 @@ module.exports = {
                 '01-variables',
                 '02-basic-arithmetic-operators',
                 '03-basic-assignment-operators',
-                '04-equality-operators'
+                '04-equality-operators',
+                '05-relational-operators'
             ]
         },
         nav: [

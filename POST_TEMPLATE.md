@@ -1,5 +1,5 @@
 ---
-title: "Learn JavaScript Through Testing #<number>"
+title: "<topic> LJTT #<number>"
 description: <description>
 image: /posts/javascript.png
 date: <date>

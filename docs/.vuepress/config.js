@@ -23,7 +23,6 @@ module.exports = {
             ]
         },
         nav: [
-            // { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
             { text: 'Learn', link: '/learn/' },
             { text: 'Contact', link: '/contact/' },
@@ -82,6 +81,12 @@ module.exports = {
                         }
                     }
                 }
+            }
+        ],
+        [
+            'sitemap', {
+                hostname: 'https://softwarewright.dev',
+                exclude: ['/404.html']
             }
         ]
     ]

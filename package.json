@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run docs:dev",
+    "build": "npm run docs:build",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "test": "echo \"Working on browser tests soon\"",
@@ -23,7 +24,8 @@
   },
   "homepage": "https://github.com/softwarewright/softwarewright.github.io#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "vuepress-plugin-sitemap": "^2.1.2"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.3",

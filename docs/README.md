@@ -3,6 +3,8 @@ home: true
 heroImage: /logo.png
 actionText: Learn
 actionLink: /learn/
+tagline: Let's Learn Together
+description: Software Wright, an aspiring mentor in all things in Software Development. Let's Learn Together!
 features:
 - title: Experienced Programmer
   details: Fullstack, DevOps, Cloud Engineer throughout my career I have learned what it means to be in each of these roles. I take a great passion for everything I develop and take the time to create the highest quality product that I possibly can.

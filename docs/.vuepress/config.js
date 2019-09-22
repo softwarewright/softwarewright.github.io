@@ -1,8 +1,21 @@
+const color = "#44B0E4"
+const title = "Software Wright"
+const description = "Software Wright, an aspiring mentor in all things in Software Development. Let's Learn Together!"
+const author = "Software Wright"
+
 module.exports = {
-    title: "Software Wright",
-    description: "Let's Learn Together",
+    title,
+    description,
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
+        ['meta', { name: 'theme-color', content: color }],
+        ['meta', { property: 'og:title', content: title }],
+        ['meta', { property: 'twitter:title', content: title }],
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:url', content: 'https://softwarewright.dev' }],
+        ['meta', { property: 'og:description', content: description }],
+        ['meta', { property: 'og:image', content: 'https://softwarewright.dev/logo.png' }],
+        ['meta', { property: 'og:article:author', content: author }],
         ['script', {
             src:
                 "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
@@ -88,6 +101,17 @@ module.exports = {
                 hostname: 'https://softwarewright.dev',
                 exclude: ['/404.html']
             }
-        ]
+        ],
+        ['git-log', {
+            additionalArgs: '--no-merge',
+            // additionalProps: {
+            //     subject: '%s',
+            //     authorEmail: '%ae',
+            //   },
+            // extendGitLog: (git) => {
+            //     console.log("The git stuff" + git)
+            //     throw new Error("asdfadfsf")
+            // }
+        }],
     ]
 }

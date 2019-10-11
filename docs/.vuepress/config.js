@@ -8,6 +8,16 @@ module.exports = {
     description,
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
+        //<link rel="preconnect" href="https://example.com">
+        ['link', { rel: 'preconnect', href:'https://links.services.disqus.com'}],
+        ['link', { rel: 'preconnect', href:'https://softwarewright.disqus.com'}],
+        ['link', { rel: 'preconnect', href:'http://softwarewright.disqus.com'}],
+        ['link', { rel: 'preconnect', href:'https://ib.adnxs.com/'}],
+        ['link', { rel: 'preconnect', href:'https://glitter.services.disqus.com/'}],
+        ['link', { rel: 'preconnect', href:'https://www.facebook.com/'}],
+        ['link', { rel: 'preconnect', href:'https://apis.google.com/'}],
+        ['link', { rel: 'preconnect', href:'https://ssl.gstatic.com/'}],
+
         ['meta', { name: 'theme-color', content: color }],
         ['meta', { property: 'og:title', content: title }],
         ['meta', { property: 'twitter:title', content: title }],
@@ -17,6 +27,7 @@ module.exports = {
         ['meta', { property: 'og:image', content: 'https://softwarewright.dev/logo.png' }],
         ['meta', { property: 'og:article:author', content: author }],
         ['script', {
+            async: "",
             src:
                 "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
             type: "text/javascript",

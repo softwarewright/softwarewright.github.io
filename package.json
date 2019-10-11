@@ -8,6 +8,7 @@
     "build": "npm run docs:build",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "serve": "serve ./docs/.vuepress/dist",
     "test": "echo \"Working on browser tests soon\"",
     "deploy": "./deploy.sh",
     "deploy:ci": "./deploy_ci.sh"
@@ -28,6 +29,8 @@
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.3",
+    "lighthouse": "^5.5.0",
+    "serve": "^11.2.0",
     "vuepress": "^1.1.0",
     "vuepress-plugin-disqus": "^0.1.1",
     "vuepress-plugin-feed": "^0.1.7",

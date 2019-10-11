@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import VueDisqus from 'vue-disqus'
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import VueDisqus from 'vue-disqus'
 
 export default ({
     Vue, // the version of Vue being used in the VuePress app
@@ -9,5 +9,7 @@ export default ({
 }) => {
     // ...add enhancements
     // mailchimp modal, google analytics, etc...
-    Vue.use(VueDisqus)
+    // Vue.use(VueDisqus);
+
+    Vue.component("VueDisqus", () => import('vue-disqus/dist/vue-disqus.vue'));
 }

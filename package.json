@@ -9,6 +9,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "serve": "serve ./docs/.vuepress/dist",
+    "lighthouse": "lighthouse http://localhost:5000",
     "test": "echo \"Working on browser tests soon\"",
     "deploy": "./deploy.sh",
     "deploy:ci": "./deploy_ci.sh"
@@ -25,16 +26,26 @@
   },
   "homepage": "https://github.com/softwarewright/softwarewright.github.io#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "bowser": "^2.7.0",
+    "hover.css": "^2.3.2",
+    "vue2-animate": "^2.1.2"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
     "@vuepress/plugin-google-analytics": "^1.0.3",
     "lighthouse": "^5.5.0",
     "serve": "^11.2.0",
-    "vuepress": "^1.1.0",
+    "vue-social-sharing": "^2.4.6",
+    "vuepress": "^1.2.0",
     "vuepress-plugin-disqus": "^0.1.1",
     "vuepress-plugin-feed": "^0.1.7",
     "vuepress-plugin-git-log": "^1.0.1",
-    "vuepress-plugin-sitemap": "^2.1.2"
+    "vuepress-plugin-reading-time": "^0.1.1",
+    "vuepress-plugin-sitemap": "^2.1.2",
+    "vuepress-plugin-social-share": "0.0.6"
   }
 }

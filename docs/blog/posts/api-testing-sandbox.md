@@ -7,6 +7,8 @@ date: Sun, 05 May 2019 03:28:47 GMT
 
 # {{$page.title}}
 
+**{{$page.readingTime.text}}**
+
 **Required Software**
 
 - [Docker](https://www.docker.com/get-started)
@@ -139,8 +141,8 @@ That's it! You now can write tests against a fake server in JavaScript and valid
 - [Jest Documentation](https://jestjs.io/docs/en/getting-started.html)
 - [Supertest Documenation](https://github.com/visionmedia/supertest)
 
-## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+### Share <social :url="$page.path" />
 
-<EmailSubscription />
+<hr/>
 
-<vue-disqus shortname="softwarewright" identifier="api_testing_sandbox" :url="$page.url" />
+<comments shortname="softwarewright" identifier="api_testing_sandbox" :url="$page.path" />

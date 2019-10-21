@@ -9,6 +9,8 @@ specFile: relational-operators.spec.js
 
 # {{$page.title}}
 
+**{{$page.readingTime.text}}**
+
 Welcome back to the series, today we will be working through JavaScript `{{$page.frontmatter.subject}}`.
 
 ::: tip
@@ -206,8 +208,8 @@ test("the greater than or equal operator checks that the value on the left is gr
 
 Phenomenal work getting through another tutorial, and I hope you gained something from the post. I would highly recommend trying different numbers in each of the test cases and ensure you understand the operators before moving on. If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
-## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+### Share <social :url="$page.path" />
 
-<EmailSubscription />
+<hr/>
 
-<vue-disqus shortname="softwarewright" identifier="relational_operators" :url="$page.url" />
+<comments shortname="softwarewright" identifier="relational_operators" :url="$page.path" />

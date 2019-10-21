@@ -7,10 +7,12 @@ date: Thu Aug 15 2019 20:27:33
 
 # {{$page.title}}
 
+**{{$page.readingTime.text}}**
+
 Welcome back we are going to pick up where we left off in the [last article](/blog/posts/learn-js-through-testing/00-getting-started) with variables. 
 
 
-:::tip
+::: tip
 If you would like to skip the previous article you can download the starter project [here](https://github.com/softwarewright/learn-js-thru-testing/archive/master.zip). Just be sure that you have `NodeJS` along with `npm` installed.
 :::
 
@@ -341,8 +343,8 @@ Time:        1.099s
 
 Amazing work getting through the tutorial, we've just scratched the surface on variables and their value and I can't wait to see you in the next post. If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
-## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+### Share <social :url="$page.path" />
 
-<EmailSubscription />
+<hr/>
 
-<vue-disqus shortname="softwarewright" identifier="v-2eb5b4e8" :url="$page.url" />
+<comments shortname="softwarewright" identifier="v-2eb5b4e8" :url="$page.path" />

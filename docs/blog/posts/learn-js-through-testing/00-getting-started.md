@@ -7,6 +7,8 @@ date: Tue Aug 13 2019 21:20:31
 
 # {{$page.title}}
 
+**{{$page.readingTime.text}}**
+
 **Required Software**
 
 - [NodeJS](https://nodejs.org/en/)
@@ -281,8 +283,8 @@ Ran all test suites.
 
 Congratulations! You have just created your first `Test Case` with a `Test Assertion` pat yourself on the back! Great job making it through the first part of the series, in the next part we will continue by diving even deeper into variables in JavaScript. If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**. 
 
-## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+### Share <social :url="$page.path" />
 
-<EmailSubscription />
+<hr/>
 
-<vue-disqus shortname="softwarewright" identifier="v-8d1635e8" :url="$page.url" />
+<comments shortname="softwarewright" identifier="v-8d1635e8" :url="$page.path" />

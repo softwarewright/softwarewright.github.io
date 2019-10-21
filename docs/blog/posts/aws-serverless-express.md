@@ -8,6 +8,8 @@ date: Sun, 05 May 2019 02:48:40 GMT
 
 # {{$page.title}}
 
+**{{$page.readingTime.text}}**
+
 **Required Software**
 
 - [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
@@ -160,8 +162,8 @@ Congratulations for making it through, now you've got a fully deployed serverles
 
 - [aws-sam-cli](https://docs.aws.amazon.com/cli/index.html)
 
-## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+### Share <social :url="$page.path" />
 
-<EmailSubscription />
+<hr/>
 
-<vue-disqus shortname="softwarewright" identifier="aws_serverless_express" :url="$page.url" />
+<comments shortname="softwarewright" identifier="aws_serverless_express" :url="$page.path" />

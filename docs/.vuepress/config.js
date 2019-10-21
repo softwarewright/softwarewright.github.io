@@ -114,15 +114,8 @@ module.exports = {
             }
         ],
         ['git-log', {
-            additionalArgs: '--no-merge',
-            // additionalProps: {
-            //     subject: '%s',
-            //     authorEmail: '%ae',
-            //   },
-            // extendGitLog: (git) => {
-            //     console.log("The git stuff" + git)
-            //     throw new Error("asdfadfsf")
-            // }
+            additionalArgs: '--no-merge'
         }],
+        'vuepress-plugin-reading-time'
     ]
 }

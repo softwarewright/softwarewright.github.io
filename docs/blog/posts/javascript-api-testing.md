@@ -8,6 +8,8 @@ date: Thu, 02 May 2019 05:21:28 GMT
 
 # {{$page.title}}
 
+**{{$page.readingTime.text}}**
+
 **Required Software**
 
 - [NodeJS](https://nodejs.org/en/)
@@ -278,8 +280,8 @@ Source code can be found [here](https://github.com/softwarebywright/javascript-a
 - [Supertest Documenation](https://github.com/visionmedia/supertest)
 - [Extending Supertest Issue](https://github.com/visionmedia/supertest/issues/381)
 
-## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+### Share <social :url="$page.path" />
 
-<EmailSubscription />
+<hr/>
 
-<vue-disqus shortname="softwarewright" identifier="javascript_api_testing" :url="$page.url" />
+<comments shortname="softwarewright" identifier="javascript_api_testing" :url="$page.path" />

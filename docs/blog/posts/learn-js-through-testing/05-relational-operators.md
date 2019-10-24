@@ -9,7 +9,9 @@ specFile: relational-operators.spec.js
 
 # {{$page.title}}
 
-**{{$page.readingTime.text}}**
+<center>
+  <strong>{{$page.readingTime.text}}</strong> 
+</center>
 
 Welcome back to the series, today we will be working through JavaScript `{{$page.frontmatter.subject}}`.
 

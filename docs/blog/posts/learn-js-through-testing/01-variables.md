@@ -7,7 +7,9 @@ date: Thu Aug 15 2019 20:27:33
 
 # {{$page.title}}
 
-**{{$page.readingTime.text}}**
+<center>
+  <strong>{{$page.readingTime.text}}</strong> 
+</center>
 
 Welcome back we are going to pick up where we left off in the [last article](/blog/posts/learn-js-through-testing/00-getting-started) with variables. 
 

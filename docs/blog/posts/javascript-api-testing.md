@@ -8,7 +8,9 @@ date: Thu, 02 May 2019 05:21:28 GMT
 
 # {{$page.title}}
 
-**{{$page.readingTime.text}}**
+<center>
+  <strong>{{$page.readingTime.text}}</strong> 
+</center>
 
 **Required Software**
 

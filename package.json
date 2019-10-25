@@ -9,7 +9,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "serve": "serve ./docs/.vuepress/dist",
-    "lighthouse": "lighthouse http://localhost:5000",
+    "lighthouse": "lighthouse http://localhost:8080",
     "test": "echo \"Working on browser tests soon\"",
     "deploy": "./deploy.sh",
     "deploy:ci": "./deploy_ci.sh"
@@ -37,6 +37,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/vue-fontawesome": "^0.1.7",
     "@vuepress/plugin-google-analytics": "^1.0.3",
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
     "lighthouse": "^5.5.0",
     "serve": "^11.2.0",
     "vue-social-sharing": "^2.4.6",

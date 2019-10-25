@@ -18,6 +18,7 @@ module.exports = {
         ['link', { rel: 'preconnect', href:'https://apis.google.com/'}],
         ['link', { rel: 'preconnect', href:'https://ssl.gstatic.com/'}],
 
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: color }],
         ['meta', { property: 'og:title', content: title }],
         ['meta', { property: 'twitter:title', content: title }],
@@ -116,6 +117,10 @@ module.exports = {
         ['git-log', {
             additionalArgs: '--no-merge'
         }],
-        'vuepress-plugin-reading-time'
+        'vuepress-plugin-reading-time',
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: true
+        }]
     ]
 }

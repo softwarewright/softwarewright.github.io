@@ -396,6 +396,7 @@ You should see the following custom error message:
 That's it for this tutorial on `Extending Jest` great work making it all the way through! If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
 Resources
+- [Source Code](https://github.com/softwarewright/extending-jest)
 - [jest-extended](https://www.npmjs.com/package/jest-extended)
 - [jest-chain](https://github.com/mattphillips/jest-chain)
 - [jest-expect-message](https://github.com/mattphillips/jest-expect-message)

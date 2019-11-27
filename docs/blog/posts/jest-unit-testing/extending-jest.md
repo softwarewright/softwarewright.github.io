@@ -20,18 +20,18 @@ date: Fri Nov 01 2019 21:55:05
 
 Hands down [jest](https://jestjs.io/) is the best javascript unit testing framework that I have had the pleasure of using. When they say `delightful JavaScript Testing Framework` on their website they mean it!
 
-Today we'll be walking through one of my favorite features of the `jest` framework, the ability to extend it. There are three libraries that we will be going over that can help simplify your tests and make the more readable.
+Today we'll be walking through one of my favorite features of the `jest` framework, the ability to extend it. There are `three libraries` that we will be going over that can help simplify your tests and make writing them more enjoyable.
 
 ## Getting Started
 
 ::: tip
-This  post assumes that you have `NodeJS` installed and `npm`. Check that they are installed and working by running `npm -v` and `node -v`. Instructions for installing `NodeJS` can be found [at this post](https://www.tutorialspoint.com/nodejs/nodejs_environment_setup.htm)
+This post assumes that you have `NodeJS` installed and `npm`. Check that they are installed and working by running `npm -v` and `node -v`. Instructions for installing `NodeJS` can be found [at this post](https://www.tutorialspoint.com/nodejs/nodejs_environment_setup.htm)
 :::
 
 To get started we need to run a few commands to set up our project. 
 
 ``` bash
-# Make a folder for the project, name it whatever your like
+# Make a folder for the project
 mkdir extending-jest
 
 # cd into that folder
@@ -64,7 +64,7 @@ Next update your `package.json` file in your project folder with a new test comm
 }
 ```
 
-Now that you've created the project and installed jest, we'll create a test that proves that the framework is setup and working.
+Now that you've created the project and installed jest, we'll create a test that proves that the framework is set up and working.
 
 ``` javascript
 // test.spec.js
@@ -92,7 +92,7 @@ Ran all test suites.
 Great we've got `jest` setup! For the final step you need to add a `jest` config section to your `package.json` file, this section will be used later in the post to extend the framework.
 
 ::: tip
-You don't have to list your `jest` config inside of your `package.json` file, the same can be accomplished by creating a `jest.config.js` file. By default `jest` will look for either of the two without you having to specify them through the command line interface.
+You don't have to list your `jest` config inside of your `package.json` file, the same can be accomplished by creating a `jest.config.js` file. By default `jest` will look for either of the two without you having to specify them through the command-line interface.
 
 ``` javascript
 // jest.config.js
@@ -127,7 +127,7 @@ The first package, [jest-extended](https://www.npmjs.com/package/jest-extended),
 
 ### Setup
 
-To get started we will install package as a dev dependency.
+To get started we will install the `jest-extended` package as a dev dependency.
 
 ``` bash
 npm i -D jest-extended
@@ -145,7 +145,7 @@ Once the `jest-extended` dependency has been installed you will need to add the 
 }
 ```
 
-With that the `jest-extended` package is ready to be used in your tests!
+Now the `jest-extended` package is ready to be used in your tests!
 
 ### Usage
 
@@ -156,7 +156,7 @@ Now that we have extended the framework, let's see what we can do! We'll start b
 const filterEvenNumbers = (items) => items.filter(i => i % 2 === 0)
 ```
 
-Next let's write our first test without the `jest-extended` package to see the difference in value that the package can add to our tests once used.
+Next, let's write our first test without the `jest-extended` package to see the difference in value that the package can add to our tests once used.
 
 **Before**
 ``` javascript
@@ -181,7 +181,7 @@ If you notice in the code above the goal of the first two assertions is to see i
 expect(numbers).toBeArrayOfSize(3)
 ```
 
-Next the final assertion in this test checks that the returned array contains the values `2, 4, and 6`, the statement `expect(numbers).toEqual(expect.arrayContaining([2, 4, 6]))` does achive this goal, but it could be a bit more cohesive. Luckily the `jest-extended` packges provides us with a function that can do just that `toIncludeAllMembers`, with which we can supply the same array.
+The final assertion in this test checks that the returned array contains the values `2, 4, and 6`, the statement `expect(numbers).toEqual(expect.arrayContaining([2, 4, 6]))` this statement does achieve this goal, but it could be a bit more cohesive. Luckily the `jest-extended` packages provide us with a function that can do just that `toIncludeAllMembers`, with which we can supply the same array.
 
 ``` javascript
 expect(numbers).toIncludeAllMembers([2,4,6])
@@ -221,7 +221,7 @@ If you would like to understand more about `Fluent Interfaces` check out [this a
 
 ### Setup
 
-The setup for `jest-chain` is the exact same as `jest-extended`, first install the package and then add it to the `setupFilesAfterEnv` array.
+The setup for `jest-chain` is the same as `jest-extended`, first install the package and then add it to the `setupFilesAfterEnv` array.
 
 ``` bash
 npm i -D jest-chain
@@ -281,7 +281,7 @@ expect(filterEvenNumbers([1,2,3,4,5,6]))
 ```
 :::
 
-As you can see even though `jest-extended` is not a apart of the base set of matcher that `jest` provides it still works well with the `jest-chain` package. The best part about `jest-chain` is that if you get errors for anything in the method chain the error output is still highly readable. You can check this by making either/both of the assertions false and check out the messages that you get.
+As you can see even though `jest-extended` is not a part of the base set of matcher that `jest` provides it still works completely with the `jest-chain` package. The best part about `jest-chain` is that if you get errors for anything in the method chain the error output is still highly readable. You can check this by making either/both of the assertions false and check out the messages that you get.
 
 **Incorrect array size**
 ``` bash
@@ -327,11 +327,11 @@ As you can see even though `jest-extended` is not a apart of the base set of mat
 
 ## Jest Expect Message
 
-The final package `jest-expect-message` is a simple package that allows you to add a custom message to your expectation, which can help with debugging a test failures.
+The final package `jest-expect-message` is a simple package that allows you to add a custom message to your expectations, which can help with debugging test failures.
 
 ### Setup
 
-The `jest-expect-message` is much like the other packages the only difference is that you will want to this package first in the `setupFilesAfterEnv` array. This is because in the implementation of the package the defintion of global `expect` function is changed. Therefore you want the `expect` function change to happen before the other packages attempt to make modifications to the global `expect` function.
+The `jest-expect-message` is much like the other packages the only difference is that you will want to this package first in the `setupFilesAfterEnv` array. This is because in the implementation of the package the definition of global `expect` function is changed. Therefore you want the `expect` function change to happen before the other packages attempt to make modifications to the global `expect` function.
 
 ``` bash
 npm i -D jest-expect-message
@@ -347,14 +347,14 @@ npm i -D jest-expect-message
 ```
 
 ::: danger
-The order is important `jest-expect-message` needs to be first in the list.
+The order is important `jest-expect-message` needs to be first in the list of set up packages.
 :::
 
 ### Usage
 
 Once again we will update our previous test to take advantage of the newly installed package. To use the `jest-expect-message` package supply a message as the second argument of the `expect` function, and if your assertions fail the custom message will be displayed.
 
-To test that the message appears correctly we will add an additional element to the `toIncludeAllMembers` assertion and force a failure.
+To test that the message appears correctly we will add an element to the `toIncludeAllMembers` assertion and force a failure.
 
 ``` javascript {6,8}
 // extended.spec.js

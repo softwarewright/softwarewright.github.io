@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Software Wright</title>
+        <link>https://softwarewright.dev/</link>
+        <description>Software Wright, an aspiring mentor in all things in Software Development. Let&apos;s Learn Together!</description>
+        <lastBuildDate>Thu, 28 Nov 2019 19:33:49 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://softwarewright.dev/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Blog Posts]]></title>
+            <link>https://softwarewright.dev/blog/</link>
+            <guid>https://softwarewright.dev/blog/</guid>
+            <pubDate>Thu, 28 Nov 2019 19:33:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Blog Posts]]></title>
+            <link>https://softwarewright.dev/blog/posts/</link>
+            <guid>https://softwarewright.dev/blog/posts/</guid>
+            <pubDate>Thu, 28 Nov 2019 19:33:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Make your own API Testing Sandbox]]></title>
+            <link>https://softwarewright.dev/blog/posts/api-testing-sandbox.html</link>
+            <guid>https://softwarewright.dev/blog/posts/api-testing-sandbox.html</guid>
+            <pubDate>Sun, 05 May 2019 03:28:47 GMT</pubDate>
+            <description><![CDATA[Let's Learn About Creating An API Testing Sandbox]]></description>
+            <enclosure url="https://softwarewright.dev/posts/testing.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[ExpressJS To Serverless]]></title>
+            <link>https://softwarewright.dev/blog/posts/aws-serverless-express.html</link>
+            <guid>https://softwarewright.dev/blog/posts/aws-serverless-express.html</guid>
+            <pubDate>Sun, 05 May 2019 02:48:40 GMT</pubDate>
+            <description><![CDATA[Let's Learn About ExpressJS with Serverless.]]></description>
+            <enclosure url="https://softwarewright.dev/posts/lambda.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Arithmetic Operators LJTT #2]]></title>
+            <link>https://softwarewright.dev/blog/posts/learn-js-through-testing/02-basic-arithmetic-operators.html</link>
+            <guid>https://softwarewright.dev/blog/posts/learn-js-through-testing/02-basic-arithmetic-operators.html</guid>
+            <pubDate>Fri, 16 Aug 2019 22:38:56 GMT</pubDate>
+            <description><![CDATA[Let's Learn About Basic Arithmetic Operators]]></description>
+            <enclosure url="https://softwarewright.dev/posts/javascript.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Learn JavaScript Through Testing]]></title>
+            <link>https://softwarewright.dev/blog/posts/learn-js-through-testing/</link>
+            <guid>https://softwarewright.dev/blog/posts/learn-js-through-testing/</guid>
+            <pubDate>Tue, 13 Aug 2019 21:20:31 GMT</pubDate>
+            <description><![CDATA[Welcome to the Learn JavaScript Through Testing series, where we do just that learn the JavaScript language through testing. As we learn about JavaScript we will prove how each piece works through testing. If you have any questions feel free to contact me directly at contact@softwarebywright.com or leave comments in the posts.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript API Testing]]></title>
+            <link>https://softwarewright.dev/blog/posts/javascript-api-testing.html</link>
+            <guid>https://softwarewright.dev/blog/posts/javascript-api-testing.html</guid>
+            <pubDate>Thu, 02 May 2019 05:21:28 GMT</pubDate>
+            <description><![CDATA[Let's Learn How To Create A JavaScript API Testing framework]]></description>
+            <enclosure url="https://softwarewright.dev/posts/javascript.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Jest Unit Testing: Extending the framework]]></title>
+            <link>https://softwarewright.dev/blog/posts/jest-unit-testing/extending-jest.html</link>
+            <guid>https://softwarewright.dev/blog/posts/jest-unit-testing/extending-jest.html</guid>
+            <pubDate>Fri, 01 Nov 2019 21:55:05 GMT</pubDate>
+            <description><![CDATA[Extend the jest framework to create cleaner tests.]]></description>
+            <enclosure url="https://softwarewright.dev/posts/javascript.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Project Setup LJTT #0]]></title>
+            <link>https://softwarewright.dev/blog/posts/learn-js-through-testing/00-getting-started.html</link>
+            <guid>https://softwarewright.dev/blog/posts/learn-js-through-testing/00-getting-started.html</guid>
+            <pubDate>Tue, 13 Aug 2019 21:20:31 GMT</pubDate>
+            <description><![CDATA[Let's Learn About Project Setup]]></description>
+            <enclosure url="https://softwarewright.dev/posts/javascript.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Variables LJTT #1]]></title>
+            <link>https://softwarewright.dev/blog/posts/learn-js-through-testing/01-variables.html</link>
+            <guid>https://softwarewright.dev/blog/posts/learn-js-through-testing/01-variables.html</guid>
+            <pubDate>Thu, 15 Aug 2019 20:27:33 GMT</pubDate>
+            <description><![CDATA[Let's Learn About Variables.]]></description>
+            <enclosure url="https://softwarewright.dev/posts/javascript.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Assignment Operators LJTT #3]]></title>
+            <link>https://softwarewright.dev/blog/posts/learn-js-through-testing/03-basic-assignment-operators.html</link>
+            <guid>https://softwarewright.dev/blog/posts/learn-js-through-testing/03-basic-assignment-operators.html</guid>
+            <pubDate>Sun, 18 Aug 2019 12:12:09 GMT</pubDate>
+            <description><![CDATA[Let's Learn About Basic Assignment Operators]]></description>
+            <enclosure url="https://softwarewright.dev/posts/javascript.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Equality Operators LJTT #4]]></title>
+            <link>https://softwarewright.dev/blog/posts/learn-js-through-testing/04-equality-operators.html</link>
+            <guid>https://softwarewright.dev/blog/posts/learn-js-through-testing/04-equality-operators.html</guid>
+            <pubDate>Sat, 24 Aug 2019 18:07:03 GMT</pubDate>
+            <description><![CDATA[Let's Learn About Equality Operators]]></description>
+            <enclosure url="https://softwarewright.dev/posts/javascript.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Relational Operators LLJT #5]]></title>
+            <link>https://softwarewright.dev/blog/posts/learn-js-through-testing/05-relational-operators.html</link>
+            <guid>https://softwarewright.dev/blog/posts/learn-js-through-testing/05-relational-operators.html</guid>
+            <pubDate>Mon, 09 Sep 2019 08:14:57 GMT</pubDate>
+            <description><![CDATA[Let's Learn About Relational Operators]]></description>
+            <enclosure url="https://softwarewright.dev/posts/javascript.png">
+            </enclosure>
+        </item>
+    </channel>
+</rss>

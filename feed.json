@@ -1,0 +1,108 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Software Wright",
+    "home_page_url": "https://softwarewright.dev/",
+    "feed_url": "https://softwarewright.dev/feed.json",
+    "description": "Software Wright, an aspiring mentor in all things in Software Development. Let's Learn Together!",
+    "items": [
+        {
+            "id": "https://softwarewright.dev/blog/",
+            "url": "https://softwarewright.dev/blog/",
+            "title": "Blog Posts",
+            "date_modified": "2019-11-28T19:33:49.424Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/",
+            "url": "https://softwarewright.dev/blog/posts/",
+            "title": "Blog Posts",
+            "date_modified": "2019-11-28T19:33:49.424Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/api-testing-sandbox.html",
+            "url": "https://softwarewright.dev/blog/posts/api-testing-sandbox.html",
+            "title": "Make your own API Testing Sandbox",
+            "summary": "Let's Learn About Creating An API Testing Sandbox",
+            "image": "https://softwarewright.dev/posts/testing.png",
+            "date_modified": "2019-05-05T03:28:47.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/aws-serverless-express.html",
+            "url": "https://softwarewright.dev/blog/posts/aws-serverless-express.html",
+            "title": "ExpressJS To Serverless",
+            "summary": "Let's Learn About ExpressJS with Serverless.",
+            "image": "https://softwarewright.dev/posts/lambda.png",
+            "date_modified": "2019-05-05T02:48:40.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/learn-js-through-testing/02-basic-arithmetic-operators.html",
+            "url": "https://softwarewright.dev/blog/posts/learn-js-through-testing/02-basic-arithmetic-operators.html",
+            "title": "Arithmetic Operators LJTT #2",
+            "summary": "Let's Learn About Basic Arithmetic Operators",
+            "image": "https://softwarewright.dev/posts/javascript.png",
+            "date_modified": "2019-08-16T22:38:56.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/learn-js-through-testing/",
+            "url": "https://softwarewright.dev/blog/posts/learn-js-through-testing/",
+            "title": "Learn JavaScript Through Testing",
+            "summary": "Welcome to the Learn JavaScript Through Testing series, where we do just that learn the JavaScript language through testing. As we learn about JavaScript we will prove how each piece works through testing. If you have any questions feel free to contact me directly at contact@softwarebywright.com or leave comments in the posts.",
+            "date_modified": "2019-08-13T21:20:31.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/javascript-api-testing.html",
+            "url": "https://softwarewright.dev/blog/posts/javascript-api-testing.html",
+            "title": "JavaScript API Testing",
+            "summary": "Let's Learn How To Create A JavaScript API Testing framework",
+            "image": "https://softwarewright.dev/posts/javascript.png",
+            "date_modified": "2019-05-02T05:21:28.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/jest-unit-testing/extending-jest.html",
+            "url": "https://softwarewright.dev/blog/posts/jest-unit-testing/extending-jest.html",
+            "title": "Jest Unit Testing: Extending the framework",
+            "summary": "Extend the jest framework to create cleaner tests.",
+            "image": "https://softwarewright.dev/posts/javascript.png",
+            "date_modified": "2019-11-01T21:55:05.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/learn-js-through-testing/00-getting-started.html",
+            "url": "https://softwarewright.dev/blog/posts/learn-js-through-testing/00-getting-started.html",
+            "title": "Project Setup LJTT #0",
+            "summary": "Let's Learn About Project Setup",
+            "image": "https://softwarewright.dev/posts/javascript.png",
+            "date_modified": "2019-08-13T21:20:31.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/learn-js-through-testing/01-variables.html",
+            "url": "https://softwarewright.dev/blog/posts/learn-js-through-testing/01-variables.html",
+            "title": "Variables LJTT #1",
+            "summary": "Let's Learn About Variables.",
+            "image": "https://softwarewright.dev/posts/javascript.png",
+            "date_modified": "2019-08-15T20:27:33.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/learn-js-through-testing/03-basic-assignment-operators.html",
+            "url": "https://softwarewright.dev/blog/posts/learn-js-through-testing/03-basic-assignment-operators.html",
+            "title": "Assignment Operators LJTT #3",
+            "summary": "Let's Learn About Basic Assignment Operators",
+            "image": "https://softwarewright.dev/posts/javascript.png",
+            "date_modified": "2019-08-18T12:12:09.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/learn-js-through-testing/04-equality-operators.html",
+            "url": "https://softwarewright.dev/blog/posts/learn-js-through-testing/04-equality-operators.html",
+            "title": "Equality Operators LJTT #4",
+            "summary": "Let's Learn About Equality Operators",
+            "image": "https://softwarewright.dev/posts/javascript.png",
+            "date_modified": "2019-08-24T18:07:03.000Z"
+        },
+        {
+            "id": "https://softwarewright.dev/blog/posts/learn-js-through-testing/05-relational-operators.html",
+            "url": "https://softwarewright.dev/blog/posts/learn-js-through-testing/05-relational-operators.html",
+            "title": "Relational Operators LLJT #5",
+            "summary": "Let's Learn About Relational Operators",
+            "image": "https://softwarewright.dev/posts/javascript.png",
+            "date_modified": "2019-09-09T08:14:57.000Z"
+        }
+    ]
+}

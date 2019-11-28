@@ -12,6 +12,9 @@ cd docs/.vuepress/dist
 # if you are deploying to a custom domain
 echo 'https://softwarewright.dev' > CNAME
 
+git config --global user.email "softwarebywright@gmail.com"
+git config --global user.name "Software Wright"
+
 echo "Initialized repo"
 git init
 echo "Adding files"

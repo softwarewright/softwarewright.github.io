@@ -16,8 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-
-# if you are deploying to https://<USERNAME>.github.io
+echo "Pushing code to deploy"
 git push -f https://softwarewright:${GH_TOKEN}@github.com/softwarewright/softwarewright.github.io.git HEAD:master
 
 cd -

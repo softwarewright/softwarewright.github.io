@@ -12,9 +12,12 @@ cd docs/.vuepress/dist
 # if you are deploying to a custom domain
 echo 'https://softwarewright.dev' > CNAME
 
+git config --global user.name "softwarewright"
+git config --global user.email "softwarebywright@gmail.com"
 git init
 git add -A
 git commit -m 'deploy'
+
 
 # if you are deploying to https://<USERNAME>.github.io
 git push -f https://softwarewright:${GH_TOKEN}@github.com/softwarewright/softwarewright.github.io.git HEAD:master

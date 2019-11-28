@@ -9,6 +9,10 @@ specFile: basic-assignment-operators.spec.js
 
 # {{$page.title}}
 
+<center>
+  <strong>{{$page.readingTime.text}}</strong> 
+</center>
+
 Welcome back to the series, today we will be working through JavaScript `{{$page.frontmatter.subject}}`.
 
 ::: tip
@@ -344,4 +348,4 @@ That's all for the basic assignment operators of JavaScript, great work getting 
 
 <EmailSubscription />
 
-<vue-disqus shortname="softwarewright" identifier="v-414162dc" :url="$page.url" />
+<comments shortname="softwarewright" identifier="v-414162dc" :url="$page.path" />

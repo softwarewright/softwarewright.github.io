@@ -9,6 +9,10 @@ specFile: basic-arithmetic-operators.spec.js
 
 # {{$page.title}}
 
+<center>
+  <strong>{{$page.readingTime.text}}</strong> 
+</center>
+
 Welcome back to the series, today we will be working through JavaScript `{{$page.frontmatter.subject}}`. I hope you're as excited as I am to relive elementary school math. Let's start learning!
 
 ::: tip
@@ -182,8 +186,9 @@ That's it for the basic `arithmetic operators`! Be sure to run your `Test Cases`
 
 Fantastic work getting through this tutorial, you should now have a basic understanding the basic arithmetic operators of JavaScript. I would recommend changing out some of the numbers, updating your `Test Cases`, and even adding new ones to solidify these concepts. If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
-## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
 
-<EmailSubscription />
+### Share <social :url="$page.path" />
 
-<vue-disqus shortname="softwarewright" identifier="v-d9380870" :url="$page.url" />
+<hr/>
+
+<comments shortname="softwarewright" identifier="v-d9380870" :url="$page.path" />

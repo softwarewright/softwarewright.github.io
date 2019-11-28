@@ -1,9 +1,34 @@
+const color = "#44B0E4"
+const title = "Software Wright"
+const description = "Software Wright, an aspiring mentor in all things in Software Development. Let's Learn Together!"
+const author = "Software Wright"
+
 module.exports = {
-    title: "Software Wright",
-    description: "Let's Learn Together",
+    title,
+    description,
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
+        //<link rel="preconnect" href="https://example.com">
+        ['link', { rel: 'preconnect', href:'https://links.services.disqus.com'}],
+        ['link', { rel: 'preconnect', href:'https://softwarewright.disqus.com'}],
+        ['link', { rel: 'preconnect', href:'http://softwarewright.disqus.com'}],
+        ['link', { rel: 'preconnect', href:'https://ib.adnxs.com/'}],
+        ['link', { rel: 'preconnect', href:'https://glitter.services.disqus.com/'}],
+        ['link', { rel: 'preconnect', href:'https://www.facebook.com/'}],
+        ['link', { rel: 'preconnect', href:'https://apis.google.com/'}],
+        ['link', { rel: 'preconnect', href:'https://ssl.gstatic.com/'}],
+
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: color }],
+        ['meta', { property: 'og:title', content: title }],
+        ['meta', { property: 'twitter:title', content: title }],
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:url', content: 'https://softwarewright.dev' }],
+        ['meta', { property: 'og:description', content: description }],
+        ['meta', { property: 'og:image', content: 'https://softwarewright.dev/logo.png' }],
+        ['meta', { property: 'og:article:author', content: author }],
         ['script', {
+            async: "",
             src:
                 "//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
             type: "text/javascript",
@@ -18,11 +43,11 @@ module.exports = {
                 '01-variables',
                 '02-basic-arithmetic-operators',
                 '03-basic-assignment-operators',
-                '04-equality-operators'
+                '04-equality-operators',
+                '05-relational-operators'
             ]
         },
         nav: [
-            // { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
             { text: 'Learn', link: '/learn/' },
             { text: 'Contact', link: '/contact/' },
@@ -82,6 +107,20 @@ module.exports = {
                     }
                 }
             }
-        ]
+        ],
+        [
+            'sitemap', {
+                hostname: 'https://softwarewright.dev',
+                exclude: ['/404.html']
+            }
+        ],
+        ['git-log', {
+            additionalArgs: '--no-merge'
+        }],
+        'vuepress-plugin-reading-time',
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: true
+        }]
     ]
 }

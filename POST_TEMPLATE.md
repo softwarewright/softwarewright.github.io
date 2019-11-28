@@ -1,5 +1,5 @@
 ---
-title: "Learn JavaScript Through Testing #<number>"
+title: "<topic> LJTT #<number>"
 description: <description>
 image: /posts/javascript.png
 date: <date>
@@ -8,6 +8,10 @@ specFile: <specfile>.spec.js
 ---
 
 # {{$page.title}}
+
+<center>
+  <strong>{{$page.readingTime.text}}</strong> 
+</center>
 
 Welcome back to the series, today we will be working through JavaScript `{{$page.frontmatter.subject}}`.
 
@@ -21,8 +25,8 @@ Be sure to check out the first part of the series [here](/blog/posts/learn-js-th
 
 If you have any questions or feedback feel free to [contact me](/contact) or leave a comment below, and always remember **you are the Captain of this Quality Cruise Line**.
 
-## **Support this content through [Patreon](https://www.patreon.com/softwarewright)**
+### Share <social :url="$page.path" />
 
-<EmailSubscription />
+<hr/>
 
-<vue-disqus shortname="softwarewright" identifier="page_name" :url="$page.url" />
+<comments shortname="softwarewright" identifier="page_name" :url="$page.path" />

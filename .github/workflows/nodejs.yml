@@ -22,7 +22,7 @@ jobs:
         npm ci
         npm run build --if-present
         npm test
-        chmod +x ./deploy.sh
-        npm run deploy
+        chmod +x ./deploy_ci.sh
+        npm run deploy:ci
       env:
         CI: true

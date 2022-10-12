@@ -38,7 +38,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.7",
     "@vuepress/plugin-google-analytics": "^1.0.3",
     "@vuepress/plugin-pwa": "^1.0.0-rc.1",
-    "lighthouse": "^5.5.0",
+    "lighthouse": "^9.6.7",
     "serve": "^11.2.0",
     "vue-social-sharing": "^2.4.6",
     "vuepress": "^1.2.0",
